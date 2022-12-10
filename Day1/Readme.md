@@ -36,5 +36,7 @@ because as you can see in the above code sample main() function return type is i
 `()` tells the compiler that the given identifier is a function. Every function ends with parenthesis `()` 
 
 And in these parenthesis we can also declare parameters that will be used while calling a function or we can left it empty just like in main() function.
+ >The values that are declared within a function when the function is called are known as an argument. Whereas, the variables that are defined when the function is declared are known as a parameter.
+
 
 
