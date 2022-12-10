@@ -30,4 +30,11 @@ Like `<iostream>` provide input output functionalities for us. One basic functio
 
 `int` is a integer , here int work as a return type for a function . 
 
-`main()` is a function , which is a entry point for every program and here main function will return 0 to int.
+`main()` is a function , which is a entry point for every program and here main() function will return 0
+because as you can see in the above code sample main() function return type is int.
+
+`()` tells the compiler that the given identifier is a function. Every function ends with parenthesis `()` 
+
+And in these parenthesis we can also declare parameters that will be used while calling a function or we can left it empty just like in main() function.
+
+
