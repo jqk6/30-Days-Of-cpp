@@ -1,4 +1,4 @@
-### Lect-1 & Lect-2
+### Lect-1 & Lect-2 Summary
 Founder of c++ is Bjarne Stroustrup in ,1979<br>
 #### C++ features
 - High performance
@@ -10,3 +10,23 @@ there will be a intermediate to communicate to the hardware which is why c++ is 
 - 2011 -> C++11
 - 2014 -> C++14
 - 2017 -> C++17
+
+```c++
+#include<iostream>
+int main(){
+    std::cout<<"Hello world\n";
+    return 0;
+}
+```
+
+Here `#include` work as a import keyword to include header files in our code.
+
+`<iostream>` is a header file name, eveything inside angle brackets are known as header file.
+
+Header files provide us various functonalities and each header file have some purpose in the code.
+
+Like `<iostream>` provide input output functionalities for us. One basic function is `cout` .
+
+`int` is a integer , here int work as a return type for a function . 
+
+`main()` is a function , which is a entry point for every program and here main function will return 0 to int.
