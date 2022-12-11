@@ -1,1 +1,1 @@
-## Lecture - 3 & LLecture - 4 Summary
+## Lecture - 3 & Lecture - 4 Summary
