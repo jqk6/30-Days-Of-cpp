@@ -26,7 +26,9 @@ Here `#include` work as a import keyword to include header files in our code.
 
 Header files provide us various functonalities and each header file have some purpose in the code.
 
-Like `<iostream>` provide input output functionalities for us. One basic function is `cout` .
+Like `<iostream>` provide input output functionalities for us.
+
+
 
 `int` is a integer , here int work as a return type for a function . 
 
@@ -37,6 +39,17 @@ because as you can see in the above code sample main() function return type is i
 
 And in these parenthesis we can also declare parameters that will be used while calling a function or we can left it empty just like in main() function.
  >The values that are declared within a function when the function is called are known as an argument. Whereas, the variables that are defined when the function is declared are known as a parameter.
+ 
 
+`std::cout` is function inside std .We can also use `cout` but for that on the second line out of the main function 
+we need to add a extra line i.e *using namespace std*
 
-
+```c++
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"Hello world\n";
+    return 0;
+}
+```
+`::` this symbol is called space resolution operator.
