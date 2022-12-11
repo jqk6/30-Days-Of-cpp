@@ -27,3 +27,22 @@ int a =4;
 
 **Variable scope** : Scope of a variable is a region in code where the existence of variable is valid.
   
+  **Local Variables** : Local variables are declared inside the braces of any function and can be accessed only from there.<br>
+  **Global Variables** : Global variables are declared outside any function and can be accessed from anywhere.
+
+### Data types in C++ are categorised in three groups:
+  - Bult-in
+  - User-defined
+  - Derived
+
+#### Built-in Data types in C++:
+`int`  `float`  `char`  `double`  `bool`
+
+
+#### User-defined Data types in C++:
+`Struct`  `Union`  `Enum`
+
+
+#### Derived Data types in C++:
+`Array`  `Function`  `Pointer`
+
