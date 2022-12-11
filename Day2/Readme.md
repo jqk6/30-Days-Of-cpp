@@ -19,8 +19,11 @@ Variables can be of different types. Primarily we have these variable types in C
 #### Syntax for declaring variables in C++
 >Data_type Variable_name = Value;
 
-int a =4, b=6;
+int a =4;
 
 ##### Based on scope variables can be classified into two types:
 1. Local Variable
 2. Global Variable
+
+**Variable scope** : Scope of a variable is a region in code where the existence of variable is valid.
+  
