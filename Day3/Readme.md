@@ -8,3 +8,6 @@ In C++ sequence of bytes corresponding to input and  output are commonly known a
 
 **Insertion Operator** `<<`: Whatever output is generated show it to the screen that's the role of insertion operator.<br> 
 **Extraction Operator** `>>`: Whatever input is given take it, that's the role of extraction operator.
+
+![](ReserveKeywords_C%2B%2B.png)
+
