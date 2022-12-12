@@ -11,3 +11,5 @@ In C++ sequence of bytes corresponding to input and  output are commonly known a
 
 ![](ReserveKeywords_C%2B%2B.png)
 
+
+![](DataType_Range_C++.png)
