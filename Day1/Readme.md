@@ -42,8 +42,9 @@ And in these parenthesis we can also declare parameters that will be used while 
  
 
 `std::cout` is function inside std .We can also use `cout` but for that on the second line out of the main function 
-we need to add a extra line i.e *using namespace std*
+we need to add a extra line i.e `using namespace std`
 
+`<<` these angle brackets in C++ are called **insertion operator** .
 ```c++
 #include<iostream>
 using namespace std;
