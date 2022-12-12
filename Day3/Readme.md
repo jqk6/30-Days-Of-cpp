@@ -3,5 +3,8 @@
 
 In C++ sequence of bytes corresponding to input and  output are commonly known as **streams**.
 
-**Input Stream** : Direction of flow of bytes takes place from input device (e.g. Keyboard) to the main memory.
+**Input Stream** : Direction of flow of bytes takes place from input device (e.g. Keyboard) to the main memory.<br>
 **Output Stream** : Direction of flow of bytes takes place from main memory to the output device (e.g. Display)
+
+**Insertion Operator** `<<`: Whatever output is generated show it to the screen that's the role of insertion operator.<br> 
+**Extraction Operator** `>>`: Whatever input is given take it, that's the role of extraction operator.
