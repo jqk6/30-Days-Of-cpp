@@ -6,5 +6,5 @@ By default decimal literal _( e.g. 3.45 )_ is `double` to let the compiler know 
 Same goes with `long` .
 ```c++
 float = 3.45f;
-long double = 3.45d; //This is long double, this doesn't exist in java.
+long double = 3.45l; //This is long double, this doesn't exist in java.
 ```
