@@ -2,5 +2,9 @@
 ### Topic : Reference Variables & Typecasting
 
 By default the scope of each variable is local , to call the global variable we use `::` scope resolution operator .<br>
-By default decimal literal _( e.g. 3.45 )_ is `double` to let the compiler know that given number is float we use `f` suffix _( e.g. 3.45f )_.<br>
+By default decimal literal _( e.g. 3.45 )_ is `double` to let the compiler know that given number is float we use `f or F` suffix _( e.g. 3.45f )_.<br>
 Same goes with `long` .
+```c++
+float = 3.45f;
+long double = 3.45d; //This is long double, this doesn't exist in java.
+```
