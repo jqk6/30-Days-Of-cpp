@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-
+//Literal datatypes
 cout<<"The size of 34.5f is : "<<sizeof(34.5f)<<endl;
 cout<<"The size of 34.5F is : "<<sizeof(34.5F)<<endl;
 cout<<"The size of 34.5l is : "<<sizeof(34.5l)<<endl;
