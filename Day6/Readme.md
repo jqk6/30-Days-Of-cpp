@@ -50,7 +50,7 @@ The value of z is :4444
 
 Operator precedence is easily available on internet.
 
-<ht>
+<hr>
 
 ## Lecture - 9 Topic : Control Structures
 In C++ basic control structures are of three types:<br>
