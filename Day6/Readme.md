@@ -53,7 +53,11 @@ Operator precedence is easily available on internet.
 <ht>
 
 ## Lecture - 9 Topic : Control Structures
-In C++ control structures are of three types:<br>
+In C++ basic control structures are of three types:<br>
 1. Sequence Structure
 2. Selection Structure
 3. Loop Structure
+    
+**Flow of Sequence Structure** :<br>
+    `Entry -> Perform Action 1 -> Performa Action 2 -> and so on..... -> Exit`
+
