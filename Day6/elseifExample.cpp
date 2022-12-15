@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    //Selection control structure : if else-if else ladder
     int age;
     cout<<"Enter your age "<<endl;
     cin>>age;
