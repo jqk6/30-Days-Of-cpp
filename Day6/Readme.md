@@ -1,5 +1,6 @@
-## Lecture - 8 Summary
-### Topic : Constants, Manipulators & Operator Precedence
+## Lecture - 8 & 9 Summary
+
+### Lecture - 8 Topic : Constants, Manipulators & Operator Precedence
 
 **Constant** : Constant is helpful when you don't want to let other change your variable value.<br>
 
@@ -49,3 +50,10 @@ The value of z is :4444
 
 Operator precedence is easily available on internet.
 
+<ht>
+
+## Lecture - 9 Topic : Control Structures
+In C++ control structures are of three types:<br>
+1. Sequence Structure
+2. Selection Structure
+3. Loop Structure
