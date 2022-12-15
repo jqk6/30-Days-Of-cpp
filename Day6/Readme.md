@@ -47,3 +47,5 @@ The value of y is : 333
 The value of z is :4444
 ```
 
+Operator precedence is easily available on internet.
+
