@@ -83,6 +83,7 @@ Just like if-else condition.
            Exit            =================== Perform Action
     
 
-    
+![DataType_Range_C++](https://user-images.githubusercontent.com/83267083/207876255-614bf3cc-708e-4778-ac75-c9735c0385b8.png)
+
     
 
