@@ -58,6 +58,18 @@ In C++ basic control structures are of three types:<br>
 2. Selection Structure
 3. Loop Structure
     
-**Flow of Sequence Structure** :<br>
+### Explaination of each control structure
+**1. Flow of Sequence Structure** :<br>
     `Entry -> Perform Action 1 -> Performa Action 2 -> and so on..... -> Exit`
 
+**2. Flow of Selection Structure** :<br>
+
+    Entry -> if true -> perform Action 1 -> Exit
+                   |
+           if false|
+                   |
+            perform Action 2 
+    
+Just like if-else condition.
+
+    
