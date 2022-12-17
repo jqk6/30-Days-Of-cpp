@@ -1,3 +1,4 @@
+**Date :** `11-12-2022`
 ## Lecture - 3 Summary
 ### Topic - Variables & Comments
 Variables are just containers which help us to store data.
