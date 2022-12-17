@@ -79,3 +79,22 @@ cout<<"The address of a is : "<<b<<endl;
 `&` --> **_Address of_**  operator<br>
 `*` --> `Dereference` operator also called **_value of_**   operator <br>
 
+**Pointer to Pointer : **
+```c++
+int a =3;
+int* b = &a;
+int** c = &b;
+cout<<"The address of b is : "<<&b<<endl;
+cout<<"The address of b is : "<<c<<endl;
+cout<<"The value at address c is : "<<*c<<endl;
+cout<<"The value of address value_at(value_at(c)) is : "<<**c<<endl;
+
+```
+
+**Output :**
+```
+The address of b is : 0x7ffc837a3fa8
+The address of b is : 0x7ffc837a3fa8
+The value at address c is : 0x7fffc0fa5474
+The value of address value_at(value_at(c)) is : 3
+```
