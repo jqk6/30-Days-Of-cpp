@@ -1,5 +1,6 @@
 **Date :** `17-12-2022`
-## Lecture - 11 Summary
+# Lecture - 11 & 12 Summary
+## Lecture - 11
 ### Topic : Break & Continue Statements
 
 **`break` keyword use :**
@@ -54,4 +55,14 @@ The value of i is : 4
 The value of i is : 5
 ```
 
-`continue` keyword is used to skip statements written after continue just like above example we skipped the output for `i =3` .
+`continue` keyword is used to skip statements written after continue just like above example we skipped the output for `i =3` . <br>
+
+<hr>
+
+## Lecture - 12
+### Topic : Pointer
+
+**What is a Pointer ?**
+>In simple words, Pointer is a datatype which holds the address of other data types.
+
+
