@@ -1,4 +1,4 @@
-## Lect-1 & Lect-2 Summary
+## Lecture - 1 & 2 Summary
 Founder of c++ is Bjarne Stroustrup in ,1979<br>
 ### C++ features
 - High performance
