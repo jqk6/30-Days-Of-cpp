@@ -1,3 +1,4 @@
+**Date :** `15-12-2022`
 ## Lecture - 8 & 9 Summary
 
 ### Lecture - 8 Topic : Constants, Manipulators & Operator Precedence
