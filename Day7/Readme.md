@@ -26,7 +26,8 @@ There are 3 types of loops in C++:
     }
 
 **do-while loop syntax :**
-    
+
+    initilization;
     do {
     
         loop body(C++ code);
