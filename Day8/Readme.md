@@ -70,9 +70,12 @@ example :
 ```c++
 int a =3;
 int* b = &a;
+cout<<"The address of a is : "<<b<<endl;
 ```
-`&` --> (Address of) operator<br>
-`*` --> Dereference operator<br>
 **Output:**<br>
 
-    The address of b is : 0x7ffcefc2a40c
+    The address of a is : 0x7ffcefc2a40c
+    
+`&` --> (Address of) operator<br>
+`*` --> Dereference operator<br>
+
