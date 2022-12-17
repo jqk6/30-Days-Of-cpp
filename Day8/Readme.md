@@ -76,6 +76,6 @@ cout<<"The address of a is : "<<b<<endl;
 
     The address of a is : 0x7ffcefc2a40c
     
-`&` --> (Address of) operator<br>
-`*` --> Dereference operator<br>
+`&` --> **_Address of_**  operator<br>
+`*` --> `Dereference` operator also called **_value of_** operator <br>
 
