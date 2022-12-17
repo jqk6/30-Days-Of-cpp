@@ -15,11 +15,23 @@ There are 3 types of loops in C++:
     }
     
 **while loop syntax :**
-    
+
+    initilization;
     while(condition){
     
-        loop body(C++ code)
+        loop body(C++ code);
 
         updation;
         
     }
+
+**do-while loop syntax :**
+    
+    do {
+    
+        loop body(C++ code);
+
+        updation;
+        
+    } while(condition);
+
