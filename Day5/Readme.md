@@ -11,7 +11,7 @@ long double = 3.45l; //This is long double, this doesn't exist in java.
 To know the size of a datatype we use `sizeof()` keyword , enter the value in parenthesis which you want to check.<br>
 >Note: The size of a datatype differs compiler to compiler.
 
-**Reference Variable** : In short words , we can say a man with multiple names but all those names belong to single person and when we call with any name that is related to the person that person will respond .
+**Reference Variable** : In short words , we can say a man with multiple names but all those names belong to single person and when we call with any name that is related to that person ,that person will respond to the call .
 
 **Code:**
 ```c++
