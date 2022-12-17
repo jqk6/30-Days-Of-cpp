@@ -65,21 +65,23 @@ The value of i is : 5
 **What is a Pointer ?**
 >In simple words, Pointer is a datatype which holds the address of other data types.
 
-How to create pointer ?
+How to create pointer ?<br>
 example :
 ```c++
 int a =3;
 int* b = &a;
-cout<<"The address of a is : "<<b<<endl;
+cout<<"The address of a is : "<<&a<<endl;
+cout<<"The address of a is : "<<<b<endl;
 ```
 **Output:**<br>
 
+    The address of a is : 0x7ffcefc2a40c
     The address of a is : 0x7ffcefc2a40c
     
 `&` --> **_Address of_**  operator<br>
 `*` --> `Dereference` operator also called **_value of_**   operator <br>
 
-**Pointer to Pointer : **
+**Pointer to Pointer :**
 ```c++
 int a =3;
 int* b = &a;
