@@ -1,3 +1,4 @@
+**Date :** `10-12-2022`
 ## Lecture - 1 & 2 Summary
 Founder of c++ is Bjarne Stroustrup in ,1979<br>
 ### C++ features
