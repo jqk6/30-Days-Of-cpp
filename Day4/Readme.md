@@ -1,4 +1,5 @@
-## LEcture - 6 Summary
+**Date :** `13-12-2022`
+## Lecture - 6 Summary
 ### Topic : C++ header files & operators in C++
 
 There are two types of header files:
