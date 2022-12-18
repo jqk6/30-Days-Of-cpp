@@ -111,9 +111,11 @@ So when we say `*c` we are actually telling the compiler that : show us the addr
 Conclusion of above statement :<br>
 *c == &a(which is hold by `b` pointer) Or we can also say *c == b (adrres of `a` (&a) is present inside this `b` pointer).<br><br>
 
-And when we say `**c` we are telling the compiler that the address stored inside c(which is b address) show us what is actually stored inside of that address.<br>
+And when we say `**c` we are telling the compiler that : show us the value stored at the address of the address which is present inside 'c' pointer.<br>
 Conclusion of above statement:<br>
-`**c == *b` <br><br>
+`**c == *b` <br>
+I know it's quite consfusing I will try my best to solve your confusion with the help of below diagrams.<br>
+<br><br>
 When we use `&` operator it tells us the address of the variable.<br>
 When we use `*` operator as a suffix with a pointer variable it tells us the value stored at that address which is present inside the pointer(e.g. int* b = &a).<br>
 When we use `**` double pointer or we can say pointer to pointer as a suffix with a variable then we are telling the compiler that store the address of a pointer(variable b) inside a pointer( variable c). <br>
