@@ -58,6 +58,7 @@ The value of i is : 5
 `continue` keyword is used to skip statements written after continue just like above example we skipped the output for `i =3` . <br>
 
 <hr>
+<!--=================================================================================================================================================-->
 
 ## Lecture - 12
 ### Topic : Pointer
@@ -79,7 +80,7 @@ cout<<"The address of a is : "<<<b<endl;
     The address of a is : 0x7ffcefc2a40c
     
 `&` --> **_Address of_**  operator<br>
-`*` --> `Dereference` operator also called **_value of_**   operator <br>
+`*` --> `Dereference` operator also called **_value of_**  operator or we can also say ***value at*** operator.   <br>
 
 **Pointer to Pointer :**
 ```c++
@@ -100,3 +101,15 @@ The address of b is : 0x7ffc837a3fa8
 The value at address c is : 0x7fffc0fa5474
 The value of address value_at(value_at(c)) is : 3
 ```
+So her pointer to pointer means
+
+pointer c holds address of b --> pointer b --> holds the address of a
+So when we say `*c` we are actually telling the compiler that : show us the address which stored by c variable and in this case it will return only address of b .
+Conclusion of above statement :
+*c == &b
+And when we say `**c` we are telling the compiler that the address stored inside c(which is b address) what is actually stored inside of that address.
+Conclusion of above statement:
+**c == *b
+When we use `&` operator it tells us the address of the variable.
+When we use `*` operator as a suffix with a pointer variable it tells us the value stored at that address.
+When we use `**` double pointer or we can say pointer to pointer as a suffix with a variable then we are telling the compiler that store the address of a pointer(variable b) inside a pointer( variable c). 
