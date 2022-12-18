@@ -1,4 +1,5 @@
-# thought_balloon10 minutes a day keep procastination away
+# 💭10 minutes a day keep procastination away💯
+# Day 1
 **Date :** `10-12-2022`
 ## Lecture - 1 & 2 Summary
 Founder of c++ is Bjarne Stroustrup in ,1979<br>
@@ -55,10 +56,10 @@ int main(){
     return 0;
 }
 ```
-`::` this symbol is called space resolution operator. <br>
-
+`::` this symbol is called space resolution operator.<br>
 <hr>
 
+# Day 2
 **Date :** `11-12-2022`
 ## Lecture - 3 Summary
 ### Topic - Variables & Comments
@@ -107,9 +108,11 @@ int a =4;
 
 #### Derived Data types in C++:
 `Array`  `Function`  `Pointer`
+
 <br>
 <hr>
 
+# Day 3
 **Date :** `12-12-2022`
 ## Lecture - 5 Summary
 ### Topic : Basic I/O in C++
@@ -122,15 +125,14 @@ In C++ sequence of bytes corresponding to input and  output are commonly known a
 **Insertion Operator** `<<`: Whatever output is generated show it to the screen that's the role of insertion operator.<br> 
 **Extraction Operator** `>>`: Whatever input is given take it, that's the role of extraction operator.
 
-![](ReserveKeywords_C%2B%2B.png)
+![](Day3/ReserveKeywords_C%2B%2B.png)
 
 
-![](DataType_Range_C++.png)
-
+![](Day3/DataType_Range_C++.png)
 <br>
-
 <hr>
 
+# Day 4
 **Date :** `13-12-2022`
 ## Lecture - 6 Summary
 ### Topic : C++ header files & operators in C++
@@ -147,8 +149,12 @@ There are two types of header files:
 [C++ reference webiste](https://en.cppreference.com/w/cpp/header)
 
 I already know types of operators because of Java , so I will not include the repetitive stuff.
+
 <br>
 <hr>
+
+# Day 5
+
 **Date :** `14-12-2022`
 ## Lecture - 7 Summary
 ### Topic : Reference Variables & Typecasting
@@ -194,6 +200,9 @@ int c = (int)b;
 ```
 <br>
 <hr>
+
+# Day 6
+
 **Date :** `15-12-2022`
 ## Lecture - 8 & 9 Summary
 
@@ -280,9 +289,14 @@ Just like if-else condition.
            Exit            =================== Perform Action
     
 
-<br><br>
+
+
+    
+
+<br>
 <hr>
 
+# Day 7
 
 **Date :** `16-12-2022`
 ## Lecture - 10 Summary 
@@ -323,8 +337,11 @@ There are 3 types of loops in C++:
         
     } while(condition);
 
-<br><br>
+<br>
 <hr>
+
+# Day 8
+
 **Date :** `17-12-2022`
 # Lecture - 11 & 12 Summary
 ## Lecture - 11
@@ -551,15 +568,9 @@ The output will be :<br>
         |______________|
                c 
 
-```
-<br><br>
+
+<br>
 <hr>
 
-
-
-
-    
-
-
-
-
+## Thank you so much for reading so far 🥺.See you next time because 
+<img src = "https://user-images.githubusercontent.com/83267083/208312078-08eaf6c8-5e53-43ed-bf61-9334d7f66a42.gif" width = "1000" height ="400">
