@@ -109,7 +109,7 @@ pointer c holds address of b --> pointer b --> holds the address of 'a' variable
 
 So when we say `*c` we are actually telling the compiler that : show us the address which stored by b pointer variable and in according to above case it will return only address stored by b pointer variable(which is address of `a` variable) .<br>
 Conclusion of above statement :<br>
-*c == &a(which is hold by `b` pointer) Or we can also say *c == b (adrres of `a` (&a) is present inside this `b` pointer).<br><br>
+*c == &a(which is hold by `b` pointer) Or we can also say *c == b (adrres of `a` (&a) i.e. is present inside this `b` pointer).<br><br>
 
 And when we say `**c` we are telling the compiler that : show us the value stored at the address of the address which is present inside 'c' pointer.<br>
 Conclusion of above statement:<br>
