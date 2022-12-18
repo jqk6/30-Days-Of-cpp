@@ -196,7 +196,7 @@ The output will be: The address present inside 'b' pointer.<br>
                                           |
          ______________                   | 
         |              |                  |
-        | Address of b | =================
+        | Address of b | =================|
         |______________|
                c 
 
@@ -211,7 +211,7 @@ The output will be :<br>
           a               /\
          ______________   ||
         |              |  ||
-        | Address of a |  <=============== 
+        | Address of a |  <===============|
         |______________|                  |
                b                          |
                                           |
@@ -220,7 +220,7 @@ The output will be :<br>
                                           |      inside 'b' pointer i.e value stored by variable 'a'
          ______________                   | 
         |              |                  |
-        | Address of b | =================
+        | Address of b | =================|
         |______________|
                c 
 
