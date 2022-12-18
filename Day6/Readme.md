@@ -85,6 +85,10 @@ Just like if-else condition.
     
 
 
+<hr>
+
+
+📑[All in one file](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/main/Journey_so_far.md)📍
 
     
 
