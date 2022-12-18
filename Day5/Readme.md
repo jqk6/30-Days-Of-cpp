@@ -41,3 +41,7 @@ Output of a : 50
 float b = 55.67;
 int c = (int)b;
 ```
+<hr>
+
+
+📑[All in one file](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/main/Journey_so_far.md)📍
