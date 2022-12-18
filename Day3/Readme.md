@@ -14,3 +14,8 @@ In C++ sequence of bytes corresponding to input and  output are commonly known a
 
 
 ![](DataType_Range_C++.png)
+
+<hr>
+
+
+📑[All in one file](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/main/Journey_so_far.md)📍
