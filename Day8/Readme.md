@@ -171,8 +171,8 @@ int** c = &b;
                c 
           
 <br><br>
-So when we say ` cout<< c `
-The output will be: The address of 'b' which is stored by 'c' pointer.<br>
+So when we say ` cout<< c `<br>
+The output will be: The address of 'b' pointer which is stored by 'c' pointer.<br>
 **Diagram:**
         
          ______________  
@@ -182,7 +182,7 @@ The output will be: The address of 'b' which is stored by 'c' pointer.<br>
                c 
 <br><br>
 When we say ` cout<< *c `<br>
-The output will be :<br>
+The output will be: The address present inside 'b' pointer.<br>
 **Diagram:**
 
          ______________  
@@ -201,23 +201,23 @@ The output will be :<br>
                c 
 
 <br><br>
-When we say ` cout<< *c `<br>
+When we say ` cout<< **c `<br>
 The output will be :<br>
 **Diagram:**
 
          ___
-        | 3 |<============|
-        |___|             |
-          a               |
-         ______________   |
-        |              |  |
-        | Address of a | <================ 
+        | 3 |<============||
+        |___|             ||
+          a               /\
+         ______________   ||
+        |              |  ||
+        | Address of a |  <=============== 
         |______________|                  |
                b                          |
               ||                          |
               ||                          |
-              ||                          |      In this case 'c' pointer will call the value at the stored address that is present inside   
-              \/                          |      'b' pointer i.e value stored by variable 'a'
+              ||                          |      In this case 'c' pointer will call the value of the address which is present 
+              \/                          |      inside 'b' pointer i.e value stored by variable 'a'
          ______________                   | 
         |              |                  |
         | Address of b | =================
