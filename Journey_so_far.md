@@ -572,5 +572,5 @@ The output will be :<br>
 <br>
 <hr>
 
-## Thank you so much for reading so far 🥺.See you next time because 
+## Thank you so much for reading this so far 🥺.See you next time because 
 <img src = "https://user-images.githubusercontent.com/83267083/208312078-08eaf6c8-5e53-43ed-bf61-9334d7f66a42.gif" width = "1000" height ="400">
