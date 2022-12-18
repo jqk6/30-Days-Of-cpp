@@ -37,3 +37,8 @@ There are 3 types of loops in C++:
         
     } while(condition);
 
+<hr>
+
+
+📑[All in one file](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/main/Journey_so_far.md)📍
+
