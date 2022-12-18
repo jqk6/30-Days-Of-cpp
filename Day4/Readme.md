@@ -14,3 +14,8 @@ There are two types of header files:
 [C++ reference webiste](https://en.cppreference.com/w/cpp/header)
 
 I already know types of operators because of Java , so I will not include the repetitive stuff.
+
+<hr>
+
+
+📑[All in one file](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/main/Journey_so_far.md)📍
