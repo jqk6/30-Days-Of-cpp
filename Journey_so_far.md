@@ -474,10 +474,10 @@ int* b = &a;
         | 3 |
         |___|
           a
+          /\
           ||
           ||
           ||
-          \/
          ______________  
         |              |
         | Address of a |
@@ -495,19 +495,19 @@ int** c = &b;
         | 3 |
         |___|
           a
+          /\
           ||
           ||
           ||
-          \/
          ______________  
         |              |
         | Address of a |
         |______________|
                b 
+              /\
               ||
               ||
               ||
-              \/
          ______________  
         |              |
         | Address of b |
@@ -534,10 +534,10 @@ The output will be: The address present inside 'b' pointer.<br>
         | Address of a |  
         |______________|  <===============|
                b                          |
-              ||                          |
-              ||                          |
-              ||                          |      In this case the `c` pointer will call the address stored by pointer `b`  
-              \/                          |
+                                          |
+                                          |
+                                          |      In this case the `c` pointer will call the address stored by pointer `b`  
+                                          |
          ______________                   | 
         |              |                  |
         | Address of b | =================
@@ -558,10 +558,10 @@ The output will be :<br>
         | Address of a |  <=============== 
         |______________|                  |
                b                          |
-              ||                          |
-              ||                          |
-              ||                          |      In this case 'c' pointer will call the value of the address which is present 
-              \/                          |      inside 'b' pointer i.e value stored by variable 'a'
+                                          |
+                                          |
+                                          |      In this case 'c' pointer will call the value of the address which is present 
+                                          |      inside 'b' pointer i.e value stored by variable 'a'
          ______________                   | 
         |              |                  |
         | Address of b | =================
