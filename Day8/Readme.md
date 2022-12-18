@@ -101,15 +101,92 @@ The address of b is : 0x7ffc837a3fa8
 The value at address c is : 0x7fffc0fa5474
 The value of address value_at(value_at(c)) is : 3
 ```
-So her pointer to pointer means
+So here pointer to pointer means
 
-pointer c holds address of b --> pointer b --> holds the address of a
-So when we say `*c` we are actually telling the compiler that : show us the address which stored by c variable and in this case it will return only address of b .
-Conclusion of above statement :
-*c == &b
-And when we say `**c` we are telling the compiler that the address stored inside c(which is b address) what is actually stored inside of that address.
-Conclusion of above statement:
-**c == *b
-When we use `&` operator it tells us the address of the variable.
-When we use `*` operator as a suffix with a pointer variable it tells us the value stored at that address.
-When we use `**` double pointer or we can say pointer to pointer as a suffix with a variable then we are telling the compiler that store the address of a pointer(variable b) inside a pointer( variable c). 
+```
+pointer c holds address of b --> pointer b --> holds the address of `a` and as we know the variable `a` sotres a value.
+```
+
+So when we say `*c` we are actually telling the compiler that : show us the address which stored by c pointer variable and in according to above case it will return only address stored by b pointer variable(which is address of `a` variable) .<br>
+Conclusion of above statement :<br>
+*c == &a(which is hold by `b` pointer) Or we can also say *c == b (adrres of `a` (&a) is present inside this `b` pointer).<br><br>
+
+And when we say `**c` we are telling the compiler that the address stored inside c(which is b address) show us what is actually stored inside of that address.<br>
+Conclusion of above statement:<br>
+**c == *b <br><br>
+When we use `&` operator it tells us the address of the variable.<br>
+When we use `*` operator as a suffix with a pointer variable it tells us the value stored at that address which is present inside the pointer(e.g. int* b = &a).<br>
+When we use `**` double pointer or we can say pointer to pointer as a suffix with a variable then we are telling the compiler that store the address of a pointer(variable b) inside a pointer( variable c). <br>
+
+```c++
+int a  = 3;
+int* b = &a;
+```
+**Diagram:**
+        
+         ___
+        | 3 |
+        |___|
+          a
+          ||
+          ||
+          ||
+          \/
+         ______________  
+        |              |
+        | Address of a |
+        |______________|
+               b 
+          
+```c++
+int a  = 3;
+int* b = &a;
+int** c = &b;
+```
+**Diagram:**
+        
+         ___
+        | 3 |
+        |___|
+          a
+          ||
+          ||
+          ||
+          \/
+         ______________  
+        |              |
+        | Address of a |
+        |______________|
+               b 
+              ||
+              ||
+              ||
+              \/
+         ______________  
+        |              |
+        | Address of b |
+        |______________|
+               c 
+          
+
+So when we say `cout<< c`
+The output will be: The address of b.
+
+When we say `cout<<*c`<br>
+The output will be :<br>
+**Diagram:**
+
+         ______________  
+        |              |
+        | Address of a |  
+        |______________|  <===============|
+               b                          |
+              ||                          |
+              ||                          |
+              ||                          |      In this case the `c` pointer will call the address stored by pointer `b`  
+              \/                          |
+         ______________                   | 
+        |              |                  |
+        | Address of b | =================
+        |______________|
+               c 
