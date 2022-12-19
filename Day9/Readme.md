@@ -61,12 +61,12 @@ The address of array is : 0x7ffcd38bf090
 **Code :**
 ```c++
     int marks[] = {45,55,66,77};
-    int* b = marks;
+    int* p = marks;
     
-    cout<<"Value at marks[0] : "<<*b<<endl;
-    cout<<"Value at marks[1] : "<<*(b+1)<<endl;
-    cout<<"Value at marks[2] : "<<*(b+2)<<endl;
-    cout<<"Value at marks[3] : "<<*(b+3)<<endl;
+    cout<<"Value at marks[0] : "<<*p<<endl;
+    cout<<"Value at marks[1] : "<<*(p+1)<<endl;
+    cout<<"Value at marks[2] : "<<*(p+2)<<endl;
+    cout<<"Value at marks[3] : "<<*(p+3)<<endl;
 ```
 **Output :**
 ```
@@ -80,7 +80,7 @@ Same output can be achieved with the help of loop.<br>
 ```c++
     for (int i = 0; i < 4; i++)
     {
-    cout<<"Value at marks["<<i<<"] : "<<*(b+i)<<endl;
+    cout<<"Value at marks["<<i<<"] : "<<*(p+i)<<endl;
     }
 ```
 
