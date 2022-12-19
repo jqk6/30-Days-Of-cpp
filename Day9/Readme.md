@@ -86,5 +86,17 @@ Same output can be achieved with the help of loop.<br>
 
 **Pointer Arithmetic :**<br>
 address<sub>new</sub> = address<sub>current</sub> + i * size of datatype
+>Where<br> 
+>address<sub>new</sub> = (p+i)<br>
+>address<sub>current</sub> = p<br>
+>p means pointer variable<br>
 
 
+
+
+
+
+<hr>
+
+
+📑[All in one file](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/main/Journey_so_far.md)📍
