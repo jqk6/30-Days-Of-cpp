@@ -39,7 +39,7 @@ The C++ is already smart enough to find the size of array by the number of eleme
   So to store the address of an array the way is:<br>
   `int* p = &marks;` ❌ This is wrong.<br>
   `int* p = marks;` ✅ This is correct way to store the address of array in an pointer.<br>
-  When we increament the pointer like `p++` the pointer will point to the second block of the marks array(index 1 because everything starts with 0 in C++).
+  When we increament the pointer like `p++` the pointer will point to the second block of the marks array(index 1 because everything starts with 0 in C++).<br><br>
   **Code :**
   ```c++
   int main(){
@@ -55,4 +55,31 @@ return 0;
 ```
 The address inside b pointer is : 0x7ffcd38bf090
 The address of array is : 0x7ffcd38bf090
+```
+<br><br>
+**Printing array values with the help of pointer :**<br>
+**Code :**
+```c++
+    int marks[] = {45,55,66,77};
+    int* b = marks;
+    
+    cout<<"Value at mark[0] : "<<*b<<endl;
+    cout<<"Value at mark[1] : "<<*(b+1)<<endl;
+    cout<<"Value at mark[2] : "<<*(b+2)<<endl;
+    cout<<"Value at mark[3] : "<<*(b+3)<<endl;
+```
+**Output :**
+```
+  Value at mark[0] : 45
+  Value at mark[1] : 55
+  Value at mark[2] : 66
+  Value at mark[3] : 77
+```
+Same output can be achieved with the help of loop.<br>
+**Code :**
+```c++
+    for (int i = 0; i < 4; i++)
+    {
+    cout<<"Value at mark["<<i<<"] : "<<*(b+i)<<endl;
+    }
 ```
