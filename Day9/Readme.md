@@ -83,3 +83,8 @@ Same output can be achieved with the help of loop.<br>
     cout<<"Value at marks["<<i<<"] : "<<*(b+i)<<endl;
     }
 ```
+
+**Pointer Arithmetic :**<br>
+address<sub>new</sub> = address<sub>current</sub> + i * size of datatype
+
+
