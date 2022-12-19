@@ -63,23 +63,23 @@ The address of array is : 0x7ffcd38bf090
     int marks[] = {45,55,66,77};
     int* b = marks;
     
-    cout<<"Value at mark[0] : "<<*b<<endl;
-    cout<<"Value at mark[1] : "<<*(b+1)<<endl;
-    cout<<"Value at mark[2] : "<<*(b+2)<<endl;
-    cout<<"Value at mark[3] : "<<*(b+3)<<endl;
+    cout<<"Value at marks[0] : "<<*b<<endl;
+    cout<<"Value at marks[1] : "<<*(b+1)<<endl;
+    cout<<"Value at marks[2] : "<<*(b+2)<<endl;
+    cout<<"Value at marks[3] : "<<*(b+3)<<endl;
 ```
 **Output :**
 ```
-  Value at mark[0] : 45
-  Value at mark[1] : 55
-  Value at mark[2] : 66
-  Value at mark[3] : 77
+  Value at marks[0] : 45
+  Value at marks[1] : 55
+  Value at marks[2] : 66
+  Value at marks[3] : 77
 ```
 Same output can be achieved with the help of loop.<br>
 **Code :**
 ```c++
     for (int i = 0; i < 4; i++)
     {
-    cout<<"Value at mark["<<i<<"] : "<<*(b+i)<<endl;
+    cout<<"Value at marks["<<i<<"] : "<<*(b+i)<<endl;
     }
 ```
