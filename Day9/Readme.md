@@ -40,4 +40,19 @@ The C++ is already smart enough to find the size of array by the number of eleme
   `int* p = &marks;` ❌ This is wrong.<br>
   `int* p = marks;` ✅ This is correct way to store the address of array in an pointer.<br>
   When we increament the pointer like `p++` the pointer will point to the second block of the marks array(index 1 because everything starts with 0 in C++).
-  
+  **Code :**
+  ```c++
+  int main(){
+    int marks[] = {45,55,66,77};
+    int* b = marks;
+    cout<<"The address inside b pointer is: "<<b<<endl;
+    cout<<"The address of array is : "<<marks<<endl;
+    
+return 0;
+}
+```
+**Output :**
+```
+The address inside b pointer is : 0x7ffcd38bf090
+The address of array is : 0x7ffcd38bf090
+```
