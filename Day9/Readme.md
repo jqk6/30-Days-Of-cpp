@@ -26,3 +26,4 @@ In C++ index always starts from 0 .
 The C++ is already smart enough to find the size of array by the number of elements present inside braces `{}`<br>
 `int marks[] = {55,66,77,45,46};` 
 
+## C++ Pointer & Arrays
