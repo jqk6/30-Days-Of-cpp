@@ -27,3 +27,17 @@ The C++ is already smart enough to find the size of array by the number of eleme
 `int marks[] = {55,66,77,45,46};` 
 
 ## C++ Pointer & Arrays
+  When we want to store the address of a variable inside another variable we use pointer (hope you remember the previous day pointer concept).<br>
+  In terms of storing address of a variable we do that using this way:<br>
+  ```c++
+  int a =5;
+  int* b = &a;
+  ```
+  Now in terms of arrays pointer the story is different <br>
+  `int marks[] ={45,55,66,77};`<br>
+  Here marks is itslef represents address of first block of the array<br>
+  So to store the address of an array the way is:<br>
+  `int* p = &marks;` ❌ This is wrong.<br>
+  `int* p = marks;` ✅ This is correct way to store the address of array in an pointer.<br>
+  When we increament the pointer like `p++` the pointer will point to the second block of the marks array(index 1 because everything starts with 0 in C++).
+  
