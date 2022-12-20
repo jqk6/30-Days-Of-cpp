@@ -55,3 +55,32 @@ using namespace std;
     }
 ``` 
 Using `typedef` is not necessary it's upto you if you want to use it or not.
+<br>
+<br>
+**What is Union ?**<br>
+>Union are better in terms of memeory management.<br>
+>A union is a user-defined type in which all members share the same memory location. This definition means that at any given time, a union can contain no more than one object from its list of members.
+
+```c++
+#include <iostream>
+using namespace std;
+
+union quantity
+{
+    int apple;
+    int mango;
+    float rice;
+};
+
+int main(){
+
+  union quantity q1;
+  q1.apple = 10;
+  cout<<"The qauntity of apples is : "<<q1.apple<<endl;  
+return 0;
+}
+```
+**Output :**
+```
+The qauntity of apples is : 10
+```
