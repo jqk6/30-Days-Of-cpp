@@ -50,6 +50,9 @@ int sum(int a, int b){
 ```
 **Will it work ?**
 
+<p align ="center">
+<img src = "/media/gifs/thinking.gif" width = "400" height ="350">
+</p>
 <hr>
 
 
