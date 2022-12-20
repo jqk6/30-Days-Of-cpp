@@ -112,3 +112,51 @@ The quantity of apples is : 20
 The value of apple is overriden by mango values. Means one value is shared between all elements of **Union** and only the latest values will be accessed just like above example.
 
 
+<p align="center">
+<img  src="/media/gifs/wait.gif" width ="480" height ="270">
+</p>
+
+**There is one interesting thing 🤯**
+```c++
+union quantity
+{
+    int apple;
+    int mango;
+    char favChar;
+};
+
+int main(){
+
+  union quantity q1;
+  q1.apple = 10;
+  q1.mango = 20;
+  
+  cout<<"The quantity of apples is : "<<q1.apple<<endl;  
+
+  //One interesting thing
+  q1.favChar ='c';
+  cout<<"The quantity of mango is : "<<q1.mango<<endl;  
+  
+  cout<<"The value of favChar is : "<<q1.favChar<<endl; 
+return 0;
+}
+```
+Now the latest overriden value is 'c' and the [ASCII](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html) value of 'c' is 99.<br>
+**Output :**
+```
+The quantity of apples is : 20
+The quantity of mango is : 99
+The value of favChar is : c
+```
+This shows us that typecasting is also happens between other datatypes in **Union**. 
+
+<br>
+<br>
+**What are Enums in C++ ?**
+
+
+
+<hr>
+
+
+📑[All in one file](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/main/Journey_so_far.md)📍
