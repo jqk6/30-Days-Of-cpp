@@ -76,11 +76,37 @@ int main(){
 
   union quantity q1;
   q1.apple = 10;
-  cout<<"The qauntity of apples is : "<<q1.apple<<endl;  
+  cout<<"The quantity of apples is : "<<q1.apple<<endl;  
 return 0;
 }
 ```
 **Output :**
 ```
-The qauntity of apples is : 10
+The quantity of apples is : 10
 ```
+
+But things will be different when we try to assign values  in more than one element of union and accessing them.
+```c++
+union quantity
+{
+    int apple;
+    int mango;
+    float rice;
+};
+
+int main(){
+
+  union quantity q1;
+  q1.apple = 10;
+  q1.mango = 20;
+  cout<<"The quantity of apples is : "<<q1.apple<<endl;  
+return 0;
+}
+
+```
+**Output :**
+```
+The quantity of apples is : 20
+```
+
+The value of apple is overriden by mango values. Means one value is shared between all elements of **Union** and only the latest values will be accessed just like above example.
