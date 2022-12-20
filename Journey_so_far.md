@@ -671,5 +671,6 @@ address<sub>new</sub> = address<sub>current</sub> + i * size of datatype
 <br>
 <hr>
 
-## Thank you so much for reading this so far 🥺.See you next time because 
-<img src = "https://user-images.githubusercontent.com/83267083/208312078-08eaf6c8-5e53-43ed-bf61-9334d7f66a42.gif" width = "1000" height ="400">
+## Thank you so much for reading this so far 🥺.See you next time because
+
+<img src = "media/gifs/SRK.gif" width = "1000" height ="400">
