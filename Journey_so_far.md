@@ -125,10 +125,10 @@ In C++ sequence of bytes corresponding to input and  output are commonly known a
 **Insertion Operator** `<<`: Whatever output is generated show it to the screen that's the role of insertion operator.<br> 
 **Extraction Operator** `>>`: Whatever input is given take it, that's the role of extraction operator.
 
-![](Day3/ReserveKeywords_C%2B%2B.png)
+![](Day%2003/ReserveKeywords_C%2B%2B.png)
 
 
-![](Day3/DataType_Range_C++.png)
+![](Day%2003/DataType_Range_C++.png)
 <br>
 <hr>
 
