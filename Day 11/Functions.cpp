@@ -3,9 +3,9 @@ using namespace std;
 
 
 
-int sum(int n1, int n2){
-    int sum =  n1+n2;
-    return sum;
+int sum(int a, int b){
+    int c =  a+b;
+    return c;
 }
 int main(){
     
