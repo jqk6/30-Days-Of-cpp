@@ -152,7 +152,47 @@ This shows us that typecasting is also happens between other datatypes in **Unio
 
 <br>
 <br>
+
 **What are Enums in C++ ?**
+>Enumerated type (enumeration) or enums is a user-defined data type which can be assigned some limited values. These values are defined by the programmer at the time of declaring the enumerated type.<br>
+If we assign a float value in a character value, then the compiler generates an error. In the same way if we try to assign any other value to the enumerated data types, the compiler generates an error. Enumerator types of values are also known as enumerators. It is also assigned by zero the same as the array. It can also be used with switch statements.
+
+**Syntax :**<br>
+```
+enum enumerated-type-name{value1, value2, value3…..valueN};
+```
+
+By default, the starting code value of the first element of enum is 0 (as in the case of array) . But it can be changed explicitly.
+
+For example:<br>
+```
+enum enumerated-type-name{value1=1, value2 = 10, value3=40};
+```
+<br><br>
+```c++
+int main(){
+    enum Meal{breakfast,lunch,dinner};
+    
+    cout<<breakfast<<endl;
+    cout<<lunch<<endl;
+    cout<<dinner<<endl;
+return 0;
+}
+```
+<br><br>
+enum variables can also be used as datatypes.
+```c++
+int main(){
+    enum Meal{breakfast,lunch,dinner};
+    Meal m1 = breakfast;
+    Meal m2 = dinner;
+    
+return 0;
+}
+```
+
+
+
 
 
 
