@@ -54,3 +54,4 @@ using namespace std;
     return 0;
     }
 ``` 
+Using `typedef` is not necessary it's upto you if you want to use it or not.
