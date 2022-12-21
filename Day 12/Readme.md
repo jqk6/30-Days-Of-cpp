@@ -19,4 +19,24 @@ int main(){
 return 0;
 }
 ```
-Predict the output ? <br>
+**Predict the output ?**<br>
+
+<img src ="/media/gifs/think2.gif" width ="250" height ="200">
+
+**Is this the Ouput you thinked about ?**
+```
+The value of a 4 and the value of b is 5
+The value of a 5 and the value of b is 4
+```
+
+<img src ="/media/gifs/yes.gif" width ="200" height ="200">
+    
+**If yes then you are wrong buddy.**
+
+<img src ="/media/gifs/disappoint.gif" width ="220" height ="200">
+
+**Yeah as a beginner this was my reaction too.**<br>
+**But this is the fun part of journey right? You encounter with new things and these new things upgrade your knowlege.**
+
+<img src ="/media/gifs/JimmyYes.gif" width ="220" height ="200">
+
