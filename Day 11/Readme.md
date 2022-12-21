@@ -64,15 +64,19 @@ Functions.cpp:14:52: error: ‘sum’ was not declared in this scope
 ```
 
 >The answer is NO, IT WILL NOT WORK🙅‍♂️. Same thing will happen in Structures,enums,union too.<br>
->If we define all of the functions , structure,enum ,union after main() function body it will not work.
+>If we define all of the functions, structure, enum, union after `main()` function body, it will not work.
 
 <p align ="center">
 <img src = "/media/gifs/ahh..I see.gif" width = "350" height ="250">
 </p>
 
+<br><br>
+Sometimes you may want to define your functions after `main()` fucnction, so what's the solution ?
+>**Function prototypes** 🤠
+<br>
 
-
-
+**What is function prototypes ? 🤔**
+>The function prototypes are used to tell the compiler about the number of arguments and about the required datatypes of a function parameter, it also tells about the return type of the function. By this information, the compiler cross-checks the function signatures before calling it.
 
 
 
