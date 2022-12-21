@@ -51,9 +51,10 @@ int sum(int a, int b){
 **Will it work ?**
 
 <p align ="center">
-<img src = "/media/gifs/thinking.gif" width = "400" height ="350">
+<img src = "/media/gifs/thinking.gif" width = "500" height ="300">
 </p>
 <hr>
+
 
 
 📑[All in one file](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/main/Journey_so_far.md)📍
