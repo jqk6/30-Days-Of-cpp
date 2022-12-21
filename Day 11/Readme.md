@@ -24,7 +24,9 @@ int main(){
 return 0;
 }
 ```
+<br>
 Now what if we define the sum function after main() function ?
+
 ```c++
 #include <iostream>
 using namespace std;
@@ -72,7 +74,7 @@ Functions.cpp:14:52: error: ‘sum’ was not declared in this scope
 
 <br><br>
 Sometimes you may want to define your functions after `main()` fucnction, so what's the solution ?
->**Function prototypes** 🤠
+>The answer is **Function prototypes** 🤠
 <br>
 
 **What is function prototypes ? 🤔**
