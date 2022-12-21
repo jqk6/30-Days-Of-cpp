@@ -6,11 +6,14 @@ using namespace std;
 // int sum(int a,b); //not acceptable
 int sum(int,int); //acceptable
 
+// void greet(); // acceptable
+void greet(void); //acceptable
 
 
 int main(){
     
     int num1,num2;
+    greet();
     cout<<"Enter the first number : "<<endl;
     cin>>num1;
     cout<<"Enter the second number : "<<endl;
@@ -24,4 +27,9 @@ int sum(int a, int b){
     // a & b are formal parameters who are taking values from actual parameters num1 & num2.
     int c =  a+b;
     return c;
+}
+
+
+void greet(){
+    cout<<"Hello,Good Morning."<<endl;
 }
