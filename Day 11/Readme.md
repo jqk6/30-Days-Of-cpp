@@ -53,6 +53,34 @@ int sum(int a, int b){
 <p align ="center">
 <img src = "/media/gifs/thinking.gif" width = "500" height ="300">
 </p>
+
+**Output :** <br>
+
+```
+Functions.cpp: In function ‘int main()’:
+Functions.cpp:14:52: error: ‘sum’ was not declared in this scope
+   14 |     cout<<"The sum of "<<num1<<" + "<<num2<<" = "<<sum(num1,num2)<<endl;
+      |     
+```
+
+>The answer is NO, IT WILL NOT WORK🙅‍♂️. Same thing will happen in Structures,enums,union too.<br>
+>If we define all of the functions , structure,enum ,union after main() function body it will not work.
+
+<p align ="center">
+<img src = "/media/gifs/ahh..I see.gif" width = "350" height ="250">
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
 <hr>
 
 
