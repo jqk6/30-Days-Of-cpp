@@ -18,10 +18,10 @@ int main(){
 
 return 0;
 }
-void swap(int a , int b){// temp   a    b
-    int temp =a;         // 4      4    5
-    a = b;               // 4      5    5
-    b = temp;            // 4      5    4
+void swap(int num1 , int num2){  // temp   num1    num2
+    int temp =num1;              // 4      4        5
+    num1 = num2;                 // 4      5        5
+    num2 = temp;                 // 4      5        4
 }
 ```
 **Predict the output ?**<br>
@@ -53,3 +53,20 @@ The value of a 5 and the value of b is 4
 The value of a 4 and the value of b is 5
 The value of a 4 and the value of b is 5
 ```
+
+**And the reason behind is :** the actual parameters that are passed to `swap` function they are copied to num1 & num2 formal parameters.<br>
+In short a different copy is created of 4 & 5 when we passed the values to **swap(num1,num2)** function.<br>
+So even we swapped the values between num1 & num2 the values of variable 'a' & 'b' will remain the same because we passed the values only
+and those values are copied to num1 & num2 and after that variable 'a' & 'b' have no relation with 'num1 & 'num2'.<br>
+**This is called "Pass by Value" .**<br>
+
+**Another small example is :** If you send a text file to your friend and if your friend do any changes in that text file then will those changes will reflect to your file too ? The answer is simple "nope" those changes will not going to show in your text file. Same happen with "pass by value" concept.<br>
+See 🤠<br>
+<img src="/media/gifs/easy.gif" width ="300" height ="250">
+
+**I hope so 👀**
+<br><br>
+
+**Now what is "Pass by Reference" ?**
+
+
