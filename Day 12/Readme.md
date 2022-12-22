@@ -18,6 +18,11 @@ int main(){
 
 return 0;
 }
+void swap(int a , int b){// temp   a    b
+    int temp =a;         // 4      4    5
+    a = b;               // 4      5    5
+    b = temp;            // 4      5    4
+}
 ```
 **Predict the output ?**<br>
 
@@ -40,3 +45,11 @@ The value of a 5 and the value of b is 4
 
 <img src ="/media/gifs/JimmyYes.gif" width ="220" height ="200">
 
+<br>
+
+**So what's the correct ouput ?**<br>
+**Here you go :**
+```
+The value of a 4 and the value of b is 5
+The value of a 4 and the value of b is 5
+```
