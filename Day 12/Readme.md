@@ -120,3 +120,5 @@ void swapPointer(int *num1, int *num2)
 
 `*num2 = temp;`
 > take the value that is present inside `temp` variable and store it at the address that is present inside the `num2` pointer variable.
+
+**Another simple example is :** If you share a file on google drive and your friend done some changes in that text file. Those changes will reflect on your side too because you both are accessing the same file. Same happens with **"Call by Reference"** .
