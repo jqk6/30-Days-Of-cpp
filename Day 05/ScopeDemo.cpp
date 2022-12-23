@@ -10,7 +10,7 @@ int main()
     cin>>b;
     c =a+b;
     cout<<"The sum is "<<c<<endl;
-    cout<<"The of global c is "<<::c<<endl;
+    cout<<"The value f global c is "<<::c<<endl;
 
     return 0;
 }
