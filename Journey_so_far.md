@@ -57,6 +57,7 @@ int main(){
 }
 ```
 `::` this symbol is called space resolution operator.<br>
+
 <hr>
 
 # Day 2
@@ -109,6 +110,8 @@ int a =4;
 #### Derived Data types in C++:
 `Array`  `Function`  `Pointer`
 
+📍[Codes of Day 2](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2002)
+
 <br>
 <hr>
 
@@ -129,6 +132,8 @@ In C++ sequence of bytes corresponding to input and  output are commonly known a
 
 
 ![](Day%2003/DataType_Range_C++.png)
+
+📍[Codes of Day 3](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2003)
 <br>
 <hr>
 
@@ -198,6 +203,9 @@ Output of a : 50
 float b = 55.67;
 int c = (int)b;
 ```
+
+📍[Codes of Day 5](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2005)
+
 <br>
 <hr>
 
@@ -290,7 +298,7 @@ Just like if-else condition.
     
 
 
-
+📍[Codes of Day 6](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2006)
     
 
 <br>
@@ -337,6 +345,8 @@ There are 3 types of loops in C++:
         
     } while(condition);
 
+
+📍[Codes of Day 7](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2007)
 <br>
 <hr>
 
@@ -568,6 +578,8 @@ The output will be :<br>
         |______________|
                c 
 
+
+📍[Codes of Day 8](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2008)
 <br>
 <hr>
 
@@ -665,6 +677,8 @@ address<sub>new</sub> = address<sub>current</sub> + i * size of datatype
 >address<sub>new</sub> = (p+i)<br>
 >address<sub>current</sub> = p<br>
 >p means pointer variable<br>
+
+📍[Codes of Day 9](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2009)
 
 <br>
 <hr>
@@ -865,7 +879,7 @@ return 0;
 ```
 
 
-
+📍[Codes of Day 10](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2010)
 
 
 
@@ -996,6 +1010,8 @@ Syntax acceptable by Function prototypes :<br>
 **Formal parameters V/s Actual parameters ?**<br>
 >Formal parameters are those which we made in the functions e.g `int sum(int a, int b)`  'a'  &  'b' are formal parameters.<br>
 >The values which we pass to these formal parameters e.g. `sum(4,5)` are called actual parameters.
+
+📍[Codes of Day 11](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2011)
 
 <br>
 <hr>
@@ -1128,6 +1144,7 @@ void swapPointer(int *num1, int *num2)
 **Another simple example is :** If you share a file on google drive and your friend done some changes in that text file. Those changes will reflect on your side too because you both are accessing the same file. Same happens with **"Call by Reference"** .
 
 
+📍[Codes of Day 12](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2012)
 
 <br>
 <hr>
@@ -1182,6 +1199,7 @@ Always write default arguments in the last in formal arguments list of a functio
 **Constant arguments :**<br>
 A constant argument is the one whose modification cannot take place by the function. Furthermore, in order to make an argument constant to a function, the use of a keyword **_const_** can take place like- **int sum (const int a, const int b)**.
 
+📍[Codes of Day 13](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2013)
 
 <br>
 <hr>
