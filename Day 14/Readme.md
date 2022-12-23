@@ -92,7 +92,8 @@ calculateFactorial(5){
 
 ```
 
-This is how function call will work in recursion .<br>
+This is how function call will work in recursion .<br><br>
+
 Now lets understand this with just values and no syntax for better readability and understanding of what exactly are the function calls doing .
 
 
