@@ -12,7 +12,9 @@ int calulateaFactorial(int n)
 
 int main()
 {
-
-    cout <<"The value of 5 factorial is : "<< calulateaFactorial(5) << endl;
+    int num;
+    cout<<"Enter a number :"<<endl;
+    cin>>num;
+    cout <<"The value of factorial"<< num<<" is : "<< calulateaFactorial(num) << endl;
     return 0;
 }
