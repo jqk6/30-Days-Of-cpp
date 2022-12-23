@@ -15,5 +15,6 @@ int main()
     cout << "Enter a number :" << endl;
     cin >> num;
     cout << "The value of fibonacci at " << num << " position is is : " << fib(num) << endl;
+    //Indexing start from 0
     return 0;
 }
