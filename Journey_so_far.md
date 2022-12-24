@@ -1357,6 +1357,54 @@ Flow of execution : top to bottom then from last line go to right side then go b
 
 <!-- ================================================================================================================================================ -->
 
+# Day 15
+
+**Date :** `24-12-2022`
+# Lecture - 19 & 20 Summary
+## Lecture - 19 Topic : Function Overloading C++
+
+Function overloading is a feature of object-oriented programming where two or more functions can have the same name but different parameters(formal parameters). When a function name is overloaded with different jobs it is called Function Overloading.
+
+Compiler first takes the passed values to the function and match the prototype of the function if prototype match with the given arguments types then that function will execute.
+
+```c++
+#include <iostream>
+using namespace std;
+
+int sum(int a,int b,int c){
+    return a+b+c;
+}
+int sum(int a, int b){
+    return a+b;
+}
+int main(){
+    
+    cout<<sum(4,5)<<endl;
+    cout<<sum(4,5,7)<<endl;
+
+return 0;
+}
+```
+<br>
+<hr>
+
+## Lecture - 20 Topic : Object Oriented Programming in C++
+
+![OOPs in C++](Day%2015/OOPsC++.png)<br><br>
+
+![Procedure Oriented in C++](Day%2015/ProcedureOriented.png)<br><br>
+
+![Object Oriented Programming in C++](Day%2015/OOPs.png)<br><br>
+
+![Basic Concepts of OOPs](Day%2015/ConceptOfOOPs.png)<br><br>
+
+![Benefits of OOPs](Day%2015/BenefitsOfOOPs.png)<br><br>
+
+📍[Codes of Day 15](Day%2015/)
+<!-- ========================================================================================================================================== -->
+
+
+
 ## Thank you so much for reading this so far 🥺.See you next time because
 
 
