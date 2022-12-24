@@ -1,6 +1,6 @@
 **Date :** `24-12-2022`
 # Lecture - 19 & 20 Summary
-## Lecture 19 Topic : Function Overloading C++
+## Lecture - 19 Topic : Function Overloading C++
 
 Function overloading is a feature of object-oriented programming where two or more functions can have the same name but different parameters(formal parameters). When a function name is overloaded with different jobs it is called Function Overloading.
 
@@ -27,4 +27,6 @@ return 0;
 <br>
 <hr>
 
-## Lecture 20 Topic : Object Oriented Programming in C++
+## Lecture - 20 Topic : Object Oriented Programming in C++
+
+![OOPs in C++](OOPsC++.png)
