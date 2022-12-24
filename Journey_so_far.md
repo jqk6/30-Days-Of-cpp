@@ -1410,3 +1410,9 @@ return 0;
 
 
 <img src = "media/gifs/SRK.gif" width = "1000" height ="400">
+
+
+<hr>
+
+**If you're an JAVA programmer and started learning C++ just like me**<br>
+📍[this might be helful for you too](Things_Only_Present_in_C%2B%2B_AND_Not_In_JAVA.md)
