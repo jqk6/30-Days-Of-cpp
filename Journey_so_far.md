@@ -140,6 +140,7 @@ In C++ sequence of bytes corresponding to input and  output are commonly known a
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
+
 # Day 4
 **Date :** `13-12-2022`
 ## Lecture - 6 Summary
@@ -304,8 +305,8 @@ Just like if-else condition.
     
 
 
-📍[Codes of Day 6](/Day%2006)
-    
+
+📍[Codes of Day 6](/Day%2006)    
 
 <br>
 <hr>
