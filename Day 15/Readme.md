@@ -39,4 +39,6 @@ return 0;
 
 ![Benefits of OOPs](BenefitsOfOOPs.png)<br><br>
 
+<hr>
+
 📑[All in one file](/Journey_so_far.md)📍
