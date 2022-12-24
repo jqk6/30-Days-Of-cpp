@@ -29,8 +29,14 @@ return 0;
 
 ## Lecture - 20 Topic : Object Oriented Programming in C++
 
-![OOPs in C++](OOPsC++.png)
+![OOPs in C++](OOPsC++.png)<br><br>
 
-![Procedure Oriented in C++](ProcedureOriented.png)
+![Procedure Oriented in C++](ProcedureOriented.png)<br><br>
+
+![Object Oriented Programming in C++](OOPs.png)<br><br>
+
+![Basic Concepts of OOPs](ConceptOfOOPs.png)<br><br>
+
+![Benefits of OOPs](BenefitsOfOOPs.png)<br><br>
 
 📑[All in one file](/Journey_so_far.md)📍
