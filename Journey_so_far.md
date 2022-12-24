@@ -158,7 +158,6 @@ There are two types of header files:
 [C++ reference webiste](https://en.cppreference.com/w/cpp/header)
 
 I already know types of operators because of Java , so I will not include the repetitive stuff.
-
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
@@ -210,7 +209,6 @@ int c = (int)b;
 ```
 
 📍[Codes of Day 5](/Day%2005)
-
 <br>
 <hr>
 
@@ -307,7 +305,6 @@ Just like if-else condition.
 
 
 📍[Codes of Day 6](/Day%2006)    
-
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
@@ -588,8 +585,8 @@ The output will be :<br>
                c 
 
 
-📍[Codes of Day 8](/Day%2008)
 
+📍[Codes of Day 8](/Day%2008)
 <br>
 <hr>
 <!-- =============================================================================================================================================== -->
@@ -689,8 +686,8 @@ address<sub>new</sub> = address<sub>current</sub> + i * size of datatype
 >address<sub>current</sub> = p<br>
 >p means pointer variable<br>
 
-📍[Codes of Day 9](/Day%2009)
 
+📍[Codes of Day 9](/Day%2009)
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
@@ -892,9 +889,6 @@ return 0;
 
 
 📍[Codes of Day 10](/Day%2010)
-
-
-
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
@@ -1024,8 +1018,8 @@ Syntax acceptable by Function prototypes :<br>
 >Formal parameters are those which we made in the functions e.g `int sum(int a, int b)`  'a'  &  'b' are formal parameters.<br>
 >The values which we pass to these formal parameters e.g. `sum(4,5)` are called actual parameters.
 
-📍[Codes of Day 11](Day%2011)
 
+📍[Codes of Day 11](Day%2011)
 <br>
 <hr>
 <!-- =============================================================================================================================================== -->
@@ -1159,14 +1153,11 @@ void swapPointer(int *num1, int *num2)
 
 
 📍[Codes of Day 12](/Day%2012)
-
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
 
 # Day 13
-
-
 
 **Date :** `22-12-2022`
 ## Lecture - 17 Summary
@@ -1214,8 +1205,8 @@ Always write default arguments in the last in formal arguments list of a functio
 **Constant arguments :**<br>
 A constant argument is the one whose modification cannot take place by the function. Furthermore, in order to make an argument constant to a function, the use of a keyword **_const_** can take place like- **int sum (const int a, const int b)**.
 
-📍[Codes of Day 13](/Day%2013)
 
+📍[Codes of Day 13](/Day%2013)
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
@@ -1360,7 +1351,6 @@ Flow of execution : top to bottom then from last line go to right side then go b
 ```
 
 📍[Codes of Day 14](/Day%2014)
-
 <br>
 <hr>
 
