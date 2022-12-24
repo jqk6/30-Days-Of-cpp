@@ -134,5 +134,6 @@ Flow of execution : top to bottom then from last line go to right side then go b
                     1 //base condition met now this function right now will return 1
 
 ```
+<hr>
 
 📑[All in one file](/Journey_so_far.md)📍
