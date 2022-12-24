@@ -1,5 +1,5 @@
 **Date :** `23-12-2022`
-## Lecture - 16 Summary
+## Lecture - 18 Summary
 ### Topic :  Recursions & Recursive Functions in C++
 
 The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called a recursive function.
