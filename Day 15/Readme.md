@@ -30,3 +30,7 @@ return 0;
 ## Lecture - 20 Topic : Object Oriented Programming in C++
 
 ![OOPs in C++](OOPsC++.png)
+
+![Procedure Oriented in C++](ProcedureOriented.png)
+
+📑[All in one file](/Journey_so_far.md)📍
