@@ -27,3 +27,5 @@
 - There is no preprocessors and macros in Java.
 
 - Java doesn’t have a sizeof operator.
+
+📍[For more differences click here](https://www.softwaretestinghelp.com/cpp-vs-java/)
