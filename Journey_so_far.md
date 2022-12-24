@@ -59,7 +59,7 @@ int main(){
 `::` this symbol is called space resolution operator.<br>
 
 <hr>
-
+<!-- ================================================================================================================================================ -->
 # Day 2
 **Date :** `11-12-2022`
 ## Lecture - 3 Summary
@@ -110,11 +110,11 @@ int a =4;
 #### Derived Data types in C++:
 `Array`  `Function`  `Pointer`
 
-📍[Codes of Day 2](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2002)
+📍[Codes of Day 2](/Day%2002)
 
 <br>
 <hr>
-
+<!-- ================================================================================================================================================ -->
 # Day 3
 **Date :** `12-12-2022`
 ## Lecture - 5 Summary
@@ -133,10 +133,11 @@ In C++ sequence of bytes corresponding to input and  output are commonly known a
 
 ![](Day%2003/DataType_Range_C++.png)
 
-📍[Codes of Day 3](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2003)
+
+📍[Codes of Day 3](/Day%2003)
 <br>
 <hr>
-
+<!-- ================================================================================================================================================ -->
 # Day 4
 **Date :** `13-12-2022`
 ## Lecture - 6 Summary
@@ -157,7 +158,7 @@ I already know types of operators because of Java , so I will not include the re
 
 <br>
 <hr>
-
+<!-- ================================================================================================================================================ -->
 # Day 5
 
 **Date :** `14-12-2022`
@@ -204,13 +205,13 @@ float b = 55.67;
 int c = (int)b;
 ```
 
-📍[Codes of Day 5](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2005)
+📍[Codes of Day 5](/Day%2005)
 
 <br>
 <hr>
 
 # Day 6
-
+<!-- ================================================================================================================================================ -->
 **Date :** `15-12-2022`
 ## Lecture - 8 & 9 Summary
 
@@ -265,7 +266,7 @@ The value of z is :4444
 Operator precedence is easily available on internet.
 
 <hr>
-
+<!-- ========================================================================= -->
 ## Lecture - 9 Topic : Control Structures
 In C++ basic control structures are of three types:<br>
 1. Sequence Structure
@@ -298,12 +299,12 @@ Just like if-else condition.
     
 
 
-📍[Codes of Day 6](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2006)
+📍[Codes of Day 6](/Day%2006)
     
 
 <br>
 <hr>
-
+<!-- ================================================================================================================================================ -->
 # Day 7
 
 **Date :** `16-12-2022`
@@ -346,10 +347,10 @@ There are 3 types of loops in C++:
     } while(condition);
 
 
-📍[Codes of Day 7](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2007)
+📍[Codes of Day 7](/Day%2007)
 <br>
 <hr>
-
+<!-- ================================================================================================================================================ -->
 # Day 8
 
 **Date :** `17-12-2022`
@@ -412,7 +413,7 @@ The value of i is : 5
 `continue` keyword is used to skip statements written after continue just like above example we skipped the output for `i =3` . <br>
 
 <hr>
-<!--=================================================================================================================================================-->
+<!--================================================================-->
 
 ## Lecture - 12
 ### Topic : Pointer
@@ -579,10 +580,10 @@ The output will be :<br>
                c 
 
 
-📍[Codes of Day 8](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2008)
+📍[Codes of Day 8](/Day%2008)
 <br>
 <hr>
-
+<!-- =============================================================================================================================================== -->
 # Day 9
 
 **Date :** `18-12-2022`
@@ -678,11 +679,11 @@ address<sub>new</sub> = address<sub>current</sub> + i * size of datatype
 >address<sub>current</sub> = p<br>
 >p means pointer variable<br>
 
-📍[Codes of Day 9](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2009)
+📍[Codes of Day 9](/Day%2009)
 
 <br>
 <hr>
-
+<!-- ================================================================================================================================================ -->
 # Day 10
 
 **Date :** `19-12-2022`
@@ -879,13 +880,13 @@ return 0;
 ```
 
 
-📍[Codes of Day 10](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2010)
+📍[Codes of Day 10](/Day%2010)
 
 
 
 <br>
 <hr>
-
+<!-- ================================================================================================================================================ -->
 # Day 11
 
 **Date :** `20-12-2022`
@@ -1011,11 +1012,11 @@ Syntax acceptable by Function prototypes :<br>
 >Formal parameters are those which we made in the functions e.g `int sum(int a, int b)`  'a'  &  'b' are formal parameters.<br>
 >The values which we pass to these formal parameters e.g. `sum(4,5)` are called actual parameters.
 
-📍[Codes of Day 11](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2011)
+📍[Codes of Day 11](Day%2011)
 
 <br>
 <hr>
-
+<!-- =============================================================================================================================================== -->
 # Day 12
 
 **Date :** `21-12-2022`
@@ -1144,11 +1145,11 @@ void swapPointer(int *num1, int *num2)
 **Another simple example is :** If you share a file on google drive and your friend done some changes in that text file. Those changes will reflect on your side too because you both are accessing the same file. Same happens with **"Call by Reference"** .
 
 
-📍[Codes of Day 12](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2012)
+📍[Codes of Day 12](/Day%2012)
 
 <br>
 <hr>
-
+<!-- ================================================================================================================================================ -->
 # Day 13
 
 
@@ -1199,11 +1200,11 @@ Always write default arguments in the last in formal arguments list of a functio
 **Constant arguments :**<br>
 A constant argument is the one whose modification cannot take place by the function. Furthermore, in order to make an argument constant to a function, the use of a keyword **_const_** can take place like- **int sum (const int a, const int b)**.
 
-📍[Codes of Day 13](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/tree/main/Day%2013)
+📍[Codes of Day 13](/Day%2013)
 
 <br>
 <hr>
-
+<!-- ================================================================================================================================================ -->
 # Day 14
 
 **Date :** `23-12-2022`
@@ -1346,6 +1347,8 @@ Flow of execution : top to bottom then from last line go to right side then go b
 
 <br>
 <hr>
+<!-- ================================================================================================================================================ -->
+
 
 ## Thank you so much for reading this so far 🥺.See you next time because
 
