@@ -1460,7 +1460,7 @@ From now onwards I will go with Day 16.1, Day 16.2 like this till my programming
 ```
 Program -> Solution
 ```
-<p>Breaking down problem to reach Solution :<br>
+Breaking down problem to reach Solution :<br>
 **1. Flowchart / Pseudo code** <br>
 **2. Writing Program in High Level Language**
 
