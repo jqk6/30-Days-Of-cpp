@@ -32,3 +32,6 @@ Algorithms are nothing but sequence of steps for solving problems. So a flow cha
 -> print sum<br>
 
 Both ways are right ✔️. Psuedo code are just generics they are just way of representing the flow of a program execution.
+
+
+<img src="FlowchartExample2.png" >
