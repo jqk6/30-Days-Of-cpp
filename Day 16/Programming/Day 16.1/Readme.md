@@ -18,7 +18,7 @@ Algorithms are nothing but sequence of steps for solving problems. So a flow cha
 
 <br><br>
 
-**Psuedo code :**<br>
+### Psuedo code :
 **Sum of 2 numbers :**<br>
 -> Read 2 number a & b<br>
 -> sum = a+b<br>
