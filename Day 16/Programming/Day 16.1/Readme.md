@@ -14,4 +14,21 @@ Algorithms are nothing but sequence of steps for solving problems. So a flow cha
 #### Flowchart Components :
 <img src="Flowchart.png" >
 
+<img src="FlowchartExample.png" >
 
+<br><br>
+
+**Psuedo code :**<br>
+**Sum of 2 numbers :**<br>
+-> Read 2 number a & b<br>
+-> sum = a+b<br>
+-> print sum<br>
+<br>
+**We can also write this in this way too :**<br>
+-> Read a<br>
+-> Read b<br>
+-> Let sum =0<br>
+-> sum = a+b<br>
+-> print sum<br>
+
+Both ways are right ✔️. Psuedo code are just generics they are just way of representing the flow of a program execution.
