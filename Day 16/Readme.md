@@ -1,7 +1,7 @@
-### 📢 **ATTENTION**
+<h1 align="center" >📢 ATTENTION</h1>
 
 <p align="center">
-<img alt ="twist gif" src="/media/gifs/Twist.gif">
+<img alt ="wink face gif" src="/media/gifs/Twist.gif">
 </p>
 <p align="center"> <b>It's time for some small change😉<b> </p>
 
@@ -9,7 +9,14 @@ It's been 15 days and so far I have learned many things all thanks to Code With 
 Now it's time to change few things , I want to start programming in c++ and for that I choose the Love Babbar [C++ playlist](https://www.youtube.com/playlist?list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f)
   
 <p align="center">
-<img alt ="What gif" src="/media/gifs/what2.gif" width="350" height="320">
+<img alt ="What expression gif" src="/media/gifs/what2.gif" width="350" height="320">
 </p>
 
+<p align="center">
 I know I know why so sudden change in the pace ? Why direction of learning is changed ?<br>
+
+<img alt ="Let me explain gif" src="/media/gifs/explain.gif" >
+  
+  The reason is recently I have joined the Coding Blocks Career Bootcamp and in that C++ will be taught and to cope up with the pace I have decided to switch to programming in C++.<br>
+  And yes this is temprory for some days only and then I will switch back to Code with Harry C++ playlist for now I will start Love Babbar [this C++ playlist](https://www.youtube.com/playlist?list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f) and my target is to complete this playlist before `10-01-2023` (random date decided) .
+</p>
