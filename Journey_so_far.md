@@ -1405,43 +1405,92 @@ return 0;
 <br>
 <hr>
 
-<h1 align="center" >📢 ATTENTION</h1>
+<h1 align="center" > 📢 ATTENTION </h1>
 
-<p align="center">
+<div align="center">
 <img alt ="wink face gif" src="/media/gifs/Twist.gif">
-</p>
-<p align="center"> <b>It's time for some small change😉<b> </p>
-
+</div>
+<div align="center"> 
+    <b>It's time for some small change😉<b><br>
 It's been 15 days and so far I have learned many things all thanks to Code With harry YT channel.<br>
-Now it's time to change few things , I want to start programming in c++ and for that I choose the Love Babbar [C++ playlist](https://www.youtube.com/playlist?list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f)
-  
-<p align="center">
-<img alt ="What expression gif" src="/media/gifs/what2.gif" width="350" height="320">
-</p>
+Now it's time to change few things , I want to start programming in c++ and for that I choose the Love Babbar 
+<a href="https://www.youtube.com/playlist?list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f">C++ Playlist</a>
+</div>
 
-<p align="center">
-I know I know why so sudden change in the pace ? Why direction of learning is changed ?<br>
+<div align="center">
+<img alt ="What expression gif" src="/media/gifs/what2.gif" width="350" height="320">
+</div>
+
+<div align="center">
+I know I know why so sudden change in the pace ? Why direction of learning is changed ? <br>
 
 <img alt ="Let me explain gif" src="/media/gifs/explain.gif" >
-  
-  The reason is recently I have joined the Coding Blocks Career Bootcamp and in that C++ will be taught and to cope up with the pace I have decided to switch to programming in C++.<br>
-  Now there might be and I really mean there might be the possibility that some of you thinking that <br>
-  What we are doing so far from Day 1 to Day 15 is learning programming right ? If you're thinking in that way then the only thing the developer world want to say to you is 
-  
-  <div align="center">
+ </div>
+The reason is recently I have joined the Coding Blocks Career Bootcamp and in that C++ will be taught and to cope up with the pace I have decided to switch to programming in C++.<br>
+Now there might be and I really mean there might be the possibility that some of you thinking that <br>
+What we are doing so far from Day 1 to Day 15 is learning programming right ? If you're thinking in that way then the only thing the developer world want to say to you is <br>
+
+        
+<div align="center">
+    
+    
   <img alt ="How can be you so wrong" src="/media/gifs/Hrithik.gif">
   
   I was in the same boat too 😅<br>
-  </div>
+</div>
   
   Right now what we are doing is actually learning the concepts of a programming language , we aren't doing programming.You can google it for more info.<br>
   
   And last thing I want to say yes this is temprory for some days only and then I will switch back to Code with Harry C++ playlist for now I will start Love Babbar 
   [this C++ playlist](https://www.youtube.com/playlist?list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f) and my target is to complete this playlist before `10-01-2023` (random date decided) .
-</p>
+
 
     
 From now onwards I will go with Day 16.1, Day 16.2 like this till my programming part is finished. After that I will come back to the code with harry playlist from where I left.  
+
+<br>
+<hr>
+
+# Day 16.1
+[📍Video Link](https://www.youtube.com/watch?v=WQoB2z67hvY&list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f&index=1&t=872s)
+
+**Date :** `25-12-2022`
+## Lecture - 1 Summary
+### Topic : Intro to Programming & Flowcharts
+```
+Program -> Solution
+```
+<p>Breaking down problem to reach Solution :<br>
+**1. Flowchart / Pseudo code** <br>
+**2. Writing Program in High Level Language**
+
+#### Flowchart : Flowchart are basically graphical representaion of an approach.
+Algorithms are nothing but sequence of steps for solving problems. So a flow chart can be used for representing an algorithm. A flowchart, will describe the operations (and in what sequence) are required to solve a given problem. You can see a flow chart as a blueprint of a design you have made for solving a problem.
+
+#### Flowchart Components :
+
+<img src="/Day%2016/Programming/Day%2016.1/Flowchart.png" >
+
+<br><br>
+
+### Psuedo code :
+**Sum of 2 numbers :**<br>
+-> Read 2 number a & b<br>
+-> sum = a+b<br>
+-> print sum<br>
+<br>
+**We can also write this in this way too :**<br>
+-> Read a<br>
+-> Read b<br>
+-> Let sum =0<br>
+-> sum = a+b<br>
+-> print sum<br>
+
+Both ways are right ✔️. Psuedo code are just generics they are just way of representing the flow of a program execution.
+
+
+<img src="/Day%2016/Programming/Day%2016.1/FlowchartExample2.png" >
+
 
 <br>
 <hr>
