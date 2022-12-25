@@ -1,9 +1,9 @@
 ### 📢 **ATTENTION**
 
-<p align="right">
+<p align="Center">
 
-<img src="/media/gifs/Twist.gif">
-
-**It's time for some small change😉**
-
+<img alt ="twist image" src="/media/gifs/Twist.gif">
 </p>
+
+
+<p align="center"> **It's time for some small change**😉 </p>
