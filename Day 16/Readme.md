@@ -18,5 +18,17 @@ I know I know why so sudden change in the pace ? Why direction of learning is ch
 <img alt ="Let me explain gif" src="/media/gifs/explain.gif" >
   
   The reason is recently I have joined the Coding Blocks Career Bootcamp and in that C++ will be taught and to cope up with the pace I have decided to switch to programming in C++.<br>
-  And yes this is temprory for some days only and then I will switch back to Code with Harry C++ playlist for now I will start Love Babbar [this C++ playlist](https://www.youtube.com/playlist?list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f) and my target is to complete this playlist before `10-01-2023` (random date decided) .
+  Now there might be and I really mean there might be the possibility that some of you thinking that <br>
+  What we are doing so far from Day 1 to Day 15 is learning programming right ? If you're thinking in that way then the only thing the developer world want to say to you is 
+  
+  <div align="center">
+  <img alt ="How can be you so wrong" src="/media/gifs/Hrithik.gif">
+  
+  I was in the same boat too 😅<br>
+  </div>
+  
+  Right now what we are doing is actually learning the concepts of a programming language , we aren't doing programming.You can google it for more info.<br>
+  
+  And last thing I want to say yes this is temprory for some days only and then I will switch back to Code with Harry C++ playlist for now I will start Love Babbar 
+  [this C++ playlist](https://www.youtube.com/playlist?list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f) and my target is to complete this playlist before `10-01-2023` (random date decided) .
 </p>
