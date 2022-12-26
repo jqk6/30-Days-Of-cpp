@@ -1409,6 +1409,7 @@ return 0;
 ![Benefits of OOPs](Day%2015/BenefitsOfOOPs.png)<br><br>
 
 📍[Codes of Day 15](Day%2015/)
+
 <!-- ========================================================================================================================================== -->
 <br>
 <hr>
@@ -1456,9 +1457,9 @@ What we are doing so far from Day 1 to Day 15 is learning programming right ? If
 
     
 From now onwards I will go with Day 16.1, Day 16.2 like this till my programming part is finished. After that I will come back to the code with harry playlist from where I left.</b>
-
 <br>
 <hr>
+<!-- ================================================================================================================================================ -->
 
 # Day 16.1
 [📍Video Link](https://www.youtube.com/watch?v=WQoB2z67hvY&list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f&index=1&t=872s)
@@ -1503,6 +1504,8 @@ Both ways are right ✔️. Psuedo code are just generics they are just way of r
 
 <br>
 <hr>
+<!-- ================================================================================================================================================ -->
+
 
 ## Thank you so much for reading this so far 🥺.See you next time because
 
