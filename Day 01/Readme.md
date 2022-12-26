@@ -23,11 +23,15 @@ int main(){
 
 Here `#include` work as a import keyword to include header files in our code.
 
+The `#include` is called a **preprocessor directive**. Preprocessor directives begin with a `#` sign. They are processed before compilation. The directive `#include <iostream>` tells the preprocessor to include the "iostream" header file to support input/output operations.
+
 `<iostream>` is a header file name, eveything inside angle brackets are known as header file.
 
 Header files provide us various functonalities and each header file have some purpose in the code.
 
 Like `<iostream>` provide input output functionalities for us.
+
+The `using namespace std;` statement declares std as the default namespace used in this program. The names `cout` and `endl`, which is used in this program, belong to the `std namespace`. These two lines shall be present in all our programs.
 
 
 
@@ -55,6 +59,9 @@ int main(){
 }
 ```
 `::` this symbol is called space resolution operator.
+
+
+>**Preprocessor Directive :** The `#include` (Line 1) is a preprocessor directive and NOT a programming statement. A preprocessor directive begins with hash sign (#). It is processed before compiling the program. A preprocessor directive is NOT terminated by a semicolon - _take note of this unusual rule_.
 
 <hr>
 
