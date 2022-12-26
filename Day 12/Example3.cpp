@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// In this example we will see swaping values with the help reference variables
+// In this example we will see swaping values with the help of reference variables
 void swapReference(int &, int &); // function prototype
 
 int main()
