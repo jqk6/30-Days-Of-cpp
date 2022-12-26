@@ -50,11 +50,17 @@ And in these parenthesis we can also declare parameters that will be used while 
 we need to add a extra line i.e `using namespace std`
 
 `<<` these angle brackets in C++ are called **insertion operator** .
+
+`cout` refers to the standard output (or Console OUTput). The symbol `<<` is called the stream insertion operator (or put-to operator), which is used to put the string "Hello world" to the console. "endl" denotes the END-of-Line or newline, which is put to the console to bring the cursor to the beginning of the next line.
+
+`return 0;`
+terminates the main() function and returns a value of 0 to the operating system. Typically, return value of 0 signals normal termination; whereas value of non-zero (usually 1) signals abnormal termination. This line is optional. C++ compiler will implicitly insert a "return 0;" to the end of the main() function.
+
 ```c++
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<"Hello world<<endl";
+    cout<<"Hello world"<<endl;
     return 0;
 }
 ```
