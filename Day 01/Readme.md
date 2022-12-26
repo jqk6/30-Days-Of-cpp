@@ -16,7 +16,7 @@ there will be a intermediate to communicate to the hardware which is why c++ is 
 ```c++
 #include<iostream>
 int main(){
-    std::cout<<"Hello world\n";
+    std::cout<<"Hello world"<<endl;
     return 0;
 }
 ```
@@ -54,7 +54,7 @@ we need to add a extra line i.e `using namespace std`
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<"Hello world\n";
+    cout<<"Hello world<<endl";
     return 0;
 }
 ```
