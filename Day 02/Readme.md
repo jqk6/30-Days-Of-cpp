@@ -12,10 +12,10 @@ Comments `//` is a way of coveying message to the compiler that you don't need t
 ### Topic - Variables Scope and Data Types
 Variables can be of different types. Primarily we have these variable types in C++:
 - int
-- Float
-- Char
-- Double
-- Boolean
+- float
+- char
+- double
+- boolean
 
 #### Syntax for declaring variables in C++
 >Data_type Variable_name = Value;
