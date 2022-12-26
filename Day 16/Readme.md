@@ -19,7 +19,7 @@ I know I know why so sudden change in the pace ? Why direction of learning is ch
 
 <img alt ="Let me explain gif" src="/media/gifs/explain.gif" >
  </div>
-The reason is recently I have joined the <i>Coding Blocks Career Bootcamp (as a Student)</i> and in that C++ will be taught and to cope up with the pace I have decided to switch to programming in C++.<br>
+    The reason is recently I have joined the&ensp;  <i><ins>Coding Blocks Career Bootcamp (as a Student)</ins></i>&ensp;   and in that C++ will be taught and to cope up with the pace I have decided to switch to programming in C++.<br>
 Now there might be and I really mean there might be a slight possibility that some of you're thinking that <br>
 What we are doing so far from Day 1 to Day 15 is learning programming right ? If you're thinking in that way then the only thing the developer world want to say to you is <br>
 
