@@ -23,6 +23,7 @@ int main(){
 }
 ```
 
+
 Here `#include` work as a import keyword to include header files in our code.
 
 The `#include` is called a **preprocessor directive**. Preprocessor directives begin with a `#` sign. They are processed before compilation. The directive `#include <iostream>` tells the preprocessor to include the "iostream" header file to support input/output operations.
@@ -52,6 +53,12 @@ And in these parenthesis we can also declare parameters that will be used while 
 we need to add a extra line i.e `using namespace std`
 
 `<<` these angle brackets in C++ are called **insertion operator** .
+
+`cout` refers to the standard output (or Console OUTput). The symbol `<<` is called the stream insertion operator (or put-to operator), which is used to put the string "Hello world" to the console. "endl" denotes the END-of-Line or newline, which is put to the console to bring the cursor to the beginning of the next line.
+
+`return 0;`
+terminates the main() function and returns a value of 0 to the operating system. Typically, return value of 0 signals normal termination; whereas value of non-zero (usually 1) signals abnormal termination. This line is optional. C++ compiler will implicitly insert a "return 0;" to the end of the main() function.
+
 ```c++
 #include<iostream>
 using namespace std;
@@ -60,10 +67,11 @@ int main(){
     return 0;
 }
 ```
-`::` this symbol is called space resolution operator.<br>
+`::` this symbol is called space resolution operator.
 
 
 >**Preprocessor Directive :** The `#include` (Line 1) is a preprocessor directive and NOT a programming statement. A preprocessor directive begins with hash sign (#). It is processed before compiling the program. A preprocessor directive is NOT terminated by a semicolon - _take note of this unusual rule_.
+
 
 [📍One interesting question on Stack Overflow](https://stackoverflow.com/questions/18914106/what-is-the-use-of-using-namespace-std?lq=1)
 
