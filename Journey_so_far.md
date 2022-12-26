@@ -1145,7 +1145,7 @@ The value of a is 4 and the value of b is 5
 The value of a is 5 and the value of b is 4
 ```
 **So why this happen ? Why now values change ?**<br>
-The key to understand above code you just need little knowledge of _pointer_.<br>
+The key to understand above code is you just need little knowledge of _pointer_.<br>
 ```c++
 void swapPointer(int *num1, int *num2)
 {                     // temp   num1    num2
