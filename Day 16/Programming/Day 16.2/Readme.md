@@ -16,7 +16,7 @@
 </div>
 
 The first half of the video is already covered in previous days of the document.<br>
-And second half of the video ? Here it comes :<br>
+And second half of the video ? Here it goes :<br>
 
 <br>
 
