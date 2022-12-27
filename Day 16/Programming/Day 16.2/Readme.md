@@ -181,3 +181,6 @@ The integer value 123456 is converted to 64 which is @ in ASCII table why 64<br>
 
 What we are actually doing is we are trying to put our 4 byte integer value 123456 inside char which is 1 byte because of that overflow condition is created and then compiler generates a warning why warning not an error ? because this is not an error and this type of typecasting creates the possibility of losing data.
 
+<hr>
+
+📑[All in one file](/Journey_so_far.md)📍
