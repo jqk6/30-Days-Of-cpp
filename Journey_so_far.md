@@ -1,4 +1,28 @@
 # 💭10 minutes a day keep procastination away💯
+
+# Index
+<ul>
+    <li><a href="#day-1">Day 1</a></li>
+    <li><a href="#day-2">Day 2 </a> </li>
+    <li><a href="#day-3">Day 3 </a> </li>
+    <li><a href="#day-4">Day 4 </a> </li>
+    <li><a href="#day-5">Day 5 </a> </li>
+    <li><a href="#day-6">Day 6 </a> </li>
+    <li><a href="#day-7">Day 7 </a> </li>
+    <li><a href="#day-8">Day 8 </a> </li>
+    <li><a href="#day-9">Day 9 </a> </li>
+    <li><a href="#day-10">Day 10 </a> </li>
+    <li><a href="#day-11">Day 11 </a> </li>
+    <li><a href="#day-12">Day 12 </a> </li>
+    <li><a href="#day-13">Day 13 </a> </li>
+    <li><a href="#day-14">Day 14 </a> </li>
+    <li><a href="#day-15">Day 15 </a> </li>
+    <li><a href="#16.1">Day 16.1 </a> </li>
+<!--     <li><a href="#day-17">Day 17 </a> </li> -->
+<!--     <li><a href="#day-18">Day 18</a> </li> -->
+    
+</ul> 
+
 # Day 1
 **Date :** `10-12-2022`
 ## Lecture - 1 & 2 Summary
@@ -75,6 +99,7 @@ int main(){
 
 [📍One interesting question on Stack Overflow](https://stackoverflow.com/questions/18914106/what-is-the-use-of-using-namespace-std?lq=1)
 
+<div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <hr>
 <!-- ================================================================================================================================================ -->
 
@@ -128,8 +153,7 @@ int a =4;
 #### Derived Data types in C++:
 `Array`  `Function`  `Pointer`
 
-📍[Codes of Day 2](/Day%2002)
-
+📍[Codes of Day 2](/Day%2002) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
@@ -153,7 +177,7 @@ In C++ sequence of bytes corresponding to input and  output are commonly known a
 ![](Day%2003/DataType_Range_C++.png)
 
 
-📍[Codes of Day 3](/Day%2003)
+📍[Codes of Day 3](/Day%2003) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
@@ -175,6 +199,7 @@ There are two types of header files:
 [C++ reference webiste](https://en.cppreference.com/w/cpp/header)
 
 I already know types of operators because of Java , so I will not include the repetitive stuff.
+<div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
@@ -225,7 +250,7 @@ float b = 55.67;
 int c = (int)b;
 ```
 
-📍[Codes of Day 5](/Day%2005)
+📍[Codes of Day 5](/Day%2005) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
 <hr>
 
@@ -321,7 +346,7 @@ Just like if-else condition.
 
 
 
-📍[Codes of Day 6](/Day%2006)    
+📍[Codes of Day 6](/Day%2006)    <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
@@ -368,7 +393,7 @@ There are 3 types of loops in C++:
     } while(condition);
 
 
-📍[Codes of Day 7](/Day%2007)
+📍[Codes of Day 7](/Day%2007)  <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
@@ -433,7 +458,7 @@ The value of i is : 5
 ```
 
 `continue` keyword is used to skip statements written after continue just like above example we skipped the output for `i =3` . <br>
-
+<div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <hr>
 <!--================================================================-->
 
@@ -603,7 +628,7 @@ The output will be :<br>
 
 
 
-📍[Codes of Day 8](/Day%2008)
+📍[Codes of Day 8](/Day%2008)   <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
 <hr>
 <!-- =============================================================================================================================================== -->
@@ -704,7 +729,7 @@ address<sub>new</sub> = address<sub>current</sub> + i * size of datatype
 >p means pointer variable<br>
 
 
-📍[Codes of Day 9](/Day%2009)
+📍[Codes of Day 9](/Day%2009)  <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
@@ -905,7 +930,7 @@ return 0;
 ```
 
 
-📍[Codes of Day 10](/Day%2010)
+📍[Codes of Day 10](/Day%2010) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
@@ -1036,7 +1061,7 @@ Syntax acceptable by Function prototypes :<br>
 >The values which we pass to these formal parameters e.g. `sum(4,5)` are called actual parameters.
 
 
-📍[Codes of Day 11](Day%2011)
+📍[Codes of Day 11](Day%2011) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
 <hr>
 <!-- =============================================================================================================================================== -->
@@ -1169,7 +1194,7 @@ void swapPointer(int *num1, int *num2)
 **Another simple example is :** If you share a file on google drive and your friend done some changes in that text file. Those changes will reflect on your side too because you both are accessing the same file. Same happens with **"Call by Reference"** .
 
 
-📍[Codes of Day 12](/Day%2012)
+📍[Codes of Day 12](/Day%2012) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
@@ -1223,7 +1248,7 @@ Always write default arguments in the last in formal arguments list of a functio
 A constant argument is the one whose modification cannot take place by the function. Furthermore, in order to make an argument constant to a function, the use of a keyword **_const_** can take place like- **int sum (const int a, const int b)**.
 
 
-📍[Codes of Day 13](/Day%2013)
+📍[Codes of Day 13](/Day%2013) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
@@ -1367,7 +1392,7 @@ Flow of execution : top to bottom then from last line go to right side then go b
 
 ```
 
-📍[Codes of Day 14](/Day%2014)
+📍[Codes of Day 14](/Day%2014) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
 <hr>
 
@@ -1417,7 +1442,7 @@ return 0;
 
 ![Benefits of OOPs](Day%2015/BenefitsOfOOPs.png)<br><br>
 
-📍[Codes of Day 15](Day%2015/)
+📍[Codes of Day 15](Day%2015/) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 
 <!-- ========================================================================================================================================== -->
 <br>
@@ -1470,7 +1495,8 @@ From now onwards I will go with Day 16.1, Day 16.2 like this till my programming
 <hr>
 <!-- ================================================================================================================================================ -->
 
-# Day 16.1
+<h1 id="16.1">Day 16.1</h1>
+
 [📍Video Link](https://www.youtube.com/watch?v=WQoB2z67hvY&list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f&index=1&t=872s)
 
 **Date :** `25-12-2022`
@@ -1510,7 +1536,7 @@ Both ways are right ✔️. Psuedo code are just generics they are just way of r
 
 <img src="/Day%2016/Programming/Day%2016.1/FlowchartExample2.png" >
 
-
+<div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
 <hr>
 <!-- ================================================================================================================================================ -->
