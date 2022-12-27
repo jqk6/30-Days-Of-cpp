@@ -1,6 +1,6 @@
 **Date :** `27-12-2022`
-## Lecture - 2 Summary
-### Topic : Write Your First Program in C++
+# Lecture - 2 Summary
+## Topic : Write Your First Program in C++
 [📍Video Link](https://www.youtube.com/watch?v=t6zLJOCVqD0&list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f&index=2&ab_channel=CodeHelp-byBabbar)
 
 <div align="center">
