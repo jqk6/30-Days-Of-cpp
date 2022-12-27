@@ -17,11 +17,17 @@
     <li><a href="#day-13">Day 13 </a> </li>
     <li><a href="#day-14">Day 14 </a> </li>
     <li><a href="#day-15">Day 15 </a> </li>
-    <li><a href="#16.1">Day 16.1 </a> </li>
-<!--     <li><a href="#day-17">Day 17 </a> </li> -->
+    <li><a href="#16"</a>Day 16
+        <ul>
+            <li> <a href="#16.1">Day 16.1</a></li>
+        </ul>    
+    </li>
+    
+</ul>      
+<!--     <li><a href="#day-17">Day 17 </a> </li> --> 
 <!--     <li><a href="#day-18">Day 18</a> </li> -->
     
-</ul> 
+ 
 
 # Day 1
 **Date :** `10-12-2022`
@@ -1448,7 +1454,7 @@ return 0;
 <br>
 <hr>
 
-<h1 align="center" > 📢 ATTENTION </h1>
+<h1 id="16" align="center" > 📢 ATTENTION </h1>
 
 <div align="center">
 <img alt ="wink face gif" src="/media/gifs/Twist.gif">
