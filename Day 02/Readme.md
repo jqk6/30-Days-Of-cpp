@@ -15,7 +15,7 @@ Variables can be of different types. Primarily we have these variable types in C
 - float
 - char
 - double
-- boolean
+- bool
 
 #### Syntax for declaring variables in C++
 >Data_type Variable_name = Value;
