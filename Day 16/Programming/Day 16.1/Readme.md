@@ -1,6 +1,7 @@
 **Date :** `25-12-2022`
 ## Lecture - 1 Summary
 ### Topic : Intro to Programming & Flowcharts
+[📍Video Link](https://www.youtube.com/watch?v=WQoB2z67hvY&list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f&index=1&t=872s)
 ```
 Program -> Solution
 ```
