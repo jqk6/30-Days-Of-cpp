@@ -52,4 +52,4 @@ A constant argument is the one whose modification cannot take place by the funct
 
 
 
-📑[All in one file](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/main/Journey_so_far.md)📍
+📑[All in one file](/Journey_so_far.md)📍

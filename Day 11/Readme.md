@@ -126,4 +126,4 @@ Syntax acceptable by Function prototypes :<br>
 
 
 
-📑[All in one file](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/main/Journey_so_far.md)📍
+📑[All in one file](/Journey_so_far.md)📍

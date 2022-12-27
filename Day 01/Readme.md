@@ -73,4 +73,4 @@ int main(){
 
 [📍One interesting question on Stack Overflow](https://stackoverflow.com/questions/18914106/what-is-the-use-of-using-namespace-std?lq=1)
 
-📑[All in one file](https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/main/Journey_so_far.md)📍
+📑[All in one file](/Journey_so_far.md)📍
