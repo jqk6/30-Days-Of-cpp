@@ -458,7 +458,7 @@ The value of i is : 5
 ```
 
 `continue` keyword is used to skip statements written after continue just like above example we skipped the output for `i =3` . <br>
-<div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
+
 <hr>
 <!--================================================================-->
 
