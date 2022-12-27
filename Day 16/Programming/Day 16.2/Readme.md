@@ -90,7 +90,7 @@ The value of ch is : b
 
 Lets come to back to the point.
 
-**So the reason is because internally the compiler did typecasting**
+**So the reason is : Because internally the compiler did typecasting**
 ```c++
 int a ='c';
 char ch = 98;
@@ -110,10 +110,10 @@ The 99 value is converted into binary then stored inside the RAM
 Same thing happened in 'ch' variable case too. The 98 value is mapped to character 'b'(refer ASCII table) 
 the 98 value will first converted into binary then stored inside RAM.
 
-     ____________________________________
-    |        |        |        |         |
-    |  0000  |  0000  |  0110  |  0010   |
-    |________|________|________|_________|
+                 _________________
+                |        |        |
+                |  0110  |  0010  |
+                |________|________|
 
 
 ```
@@ -148,4 +148,36 @@ So the left most bit is reserved for negative and positive sign.**
 
 
 char have 1 byte of storage available
-> i.e 2<sup>8</sup>-1
+> i.e 2<sup>8</sup>-1 (for unsigned char)
+
+> 2<sup>7</sup>-1 (for signed char)<br>
+> signed char means -->it can be positive or negative means -->the left most bit is reserved for negative and positive sign.
+
+**Now what if we try to store a value which is greater than the capacity of a datatype ?**
+
+Lets understand this with the help of code :
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{ 
+    char ch=123456;
+    cout<<"The value of ch is : "<<ch<<endl;
+```
+**Output :**
+```
+demo.cpp: In function ‘int main()’:
+demo.cpp:8:13: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘123456’ to ‘'@'’ [-Woverflow]
+    6 |     char ch=123456;
+      |             ^~~~~~
+      
+The value of ch is : @
+```
+>_demo.cpp_ is my file name (ignore that part)
+
+Overflow condition happens and the output we get is `@`.<br>
+The integer value 123456 is converted to 64 which is @ in ASCII table why 64<br>
+
+What we are actually doing is we are trying to put our 4 byte integer value 123456 inside char which is 1 byte because of that overflow condition is created and then compiler generates a warning why warning not an error ? because this is not an error and this type of typecasting creates the possibility of losing data.
+
