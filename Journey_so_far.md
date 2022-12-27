@@ -1643,7 +1643,7 @@ The value of ch is : b
 
 Lets come to back to the point.
 
-**So the reason is because internally the compiler did typecasting**
+**So the reason is : Because internally the compiler did typecasting**
 ```c++
 int a ='c';
 char ch = 98;
