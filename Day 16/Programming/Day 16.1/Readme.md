@@ -35,3 +35,9 @@ Both ways are right ✔️. Psuedo code are just generics they are just way of r
 
 
 <img src="FlowchartExample2.png" >
+
+<br>
+<hr>
+
+📑[All in one file](/Journey_so_far.md)📍
+
