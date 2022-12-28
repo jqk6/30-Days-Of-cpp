@@ -69,7 +69,7 @@ Now lets go a little more in depth of this.
 ```c++
 int a ='c';
 char ch = 98;
-cout<<"The value of a is : "a<<endl;
+cout<<"The value of a is : "<<a<<endl;
 cout<<"The value of ch is : "<<ch<<endl;
 ```
 Will the above code going to give error ? because we are assigning character value into `int` datatype and we are assigning integer value into chararacter(`char`) datatype .
@@ -315,6 +315,10 @@ In unsigned char the range will be
 ### 2<sup>8</sup> - 1
 >**Means the range is 0 to 255 i.e total 256. Unsigned means no negative , so there will be no need to reserve the left most bit(msb) for positive or negative anymore**
 >And same calulation will be done in overflow condition just like above examples. Nothing will change.
+
+### By default all datatypes are signed so that means all datatypes left most bit is reserved for positive and negative<br>
+![remember](https://user-images.githubusercontent.com/83267083/209800162-72cf9cbe-972a-4acb-a76a-6c27dec55267.gif)
+
 <hr>
 
 📑[All in one file](/Journey_so_far.md)📍
