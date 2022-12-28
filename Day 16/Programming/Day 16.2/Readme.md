@@ -210,7 +210,7 @@ I think you already know the reason.<br>
 But still<br>
 <img alt ="Giving let me remind you expression gif" src="/media/gifs/remind.gif"  width="350" height="200" >
 
-The reason is because 0 is also counted.&ensp; **-2<sup>N-1</sup>  to 2<sup>N-1</sup> -1** &nbsp;in  &ensp;**2<sup>N-1</sup> -1** the `-1` part is included because 0 is included in the range of every datatype **that's the reason** `-1` exist (I'm not talking about N-1 in the power, I'm talking about -1 which is in base) <br>
+The reason is because 0 is also counted.&ensp; **-2<sup>N-1</sup>  to 2<sup>N-1</sup> -1** &nbsp;in  &ensp;**2<sup>N-1</sup> -1** the `-1` part is included because 0 is also counted in the range of every datatype **that's the reason** `-1` exist (I'm not talking about N-1 in the power, I'm talking about -1 which is in base) <br>
 
 ### Now the next question is : When overflow condition happens how these values are converted 🤔 or We can say how compiler convert these overflowed values ?
 Lets take our previous example:
