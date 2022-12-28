@@ -145,7 +145,9 @@ So the left most bit is reserved for negative and positive sign.**
     
     (sorry for mismatched arrow but I hope you got the idea what I am talking about)
 
-
+### How range of a datatype is calculated ?
+> #### -2<sup>N-1</sup> to 2<sup>N-1</sup> -1<br>
+> Where N = number of bits
 
 char have 1 byte of storage available
 > i.e 2<sup>8</sup>-1 (for unsigned char)
@@ -177,7 +179,7 @@ The value of ch is : @
 >_demo.cpp_ is my file name (ignore that part)
 
 Overflow condition happens and the output we get is `@`.<br>
-The integer value 123456 is converted to 64 which is @ in ASCII table why 64<br>
+The integer value 123456 is converted to 64 which is @ in ASCII table .<br>
 
 What we are actually doing is we are trying to put our 4 byte integer value 123456 inside char which is 1 byte because of that overflow condition is created and then compiler generates a warning why warning not an error ? because this is not an error and this type of typecasting creates the possibility of losing data.
 
@@ -198,10 +200,11 @@ The value of ch is : -127
 ```
 **Now why this ?**<br>
 Lets do some maths <br>
-`char` is unsigned which means 2<sup>7</sup>-1 = 128 so the range is -128 to 127 why not -128 to 128 ? The reason is because 0 is also counted.<br>
+`char` is signed(for now lets suppose that) which means 2<sup>7</sup>-1 = 127 so the range is -128 to 127 why not -128 to 128 ? The reason is because 0 is also counted.&ensp; **-2<sup>N-1</sup>  to 2<sup>N-1</sup> -1** &nbsp;in  &ensp;**2<sup>N-1</sup> -1** the `-1` part is becuase we included 0 in the range of every datatype that's the reason `-1` exist (I'm not talking about N-1 in the power, I'm talking about -1 which is in base) <br>
 
-And why -128 is included<br> ?
-<img alt="Let me remind you expression gif" src="/media/gifs/remind.gif" width="350" height="200">
+
+
+
 
 <hr>
 
