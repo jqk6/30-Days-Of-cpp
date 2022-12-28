@@ -181,6 +181,28 @@ The integer value 123456 is converted to 64 which is @ in ASCII table why 64<br>
 
 What we are actually doing is we are trying to put our 4 byte integer value 123456 inside char which is 1 byte because of that overflow condition is created and then compiler generates a warning why warning not an error ? because this is not an error and this type of typecasting creates the possibility of losing data.
 
+**Now you might think why 64 why not 65,68 etc ?**
+Now this is interesting part so I need your full attention on this
+
+Lets understand with a small example
+```c++
+char ch = 129;
+int a = ch;
+cout<< "The value of ch is : "<< a<<endl;
+```
+I am using integer variable because it's have longer range so it will be easy to see changes.
+
+**Output :**
+```
+The value of ch is : -127
+```
+**Now why this ?**<br>
+Lets do some maths <br>
+`char` is unsigned which means 2<sup>7</sup>-1 = 128 so the range is -128 to 127 why not -128 to 128 ? The reason is because 0 is also counted.<br>
+
+And why -128 is included<br> ?
+<img alt="Let me remind you expression gif" src="/media/gifs/remind.gif" width="350" height="200">
+
 <hr>
 
 📑[All in one file](/Journey_so_far.md)📍
