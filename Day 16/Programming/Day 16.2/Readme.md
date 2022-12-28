@@ -373,10 +373,14 @@ Suppose we want to store -5 . What are the steps to store this negative number.<
                             1+
           ____________________
           0000 0000 0000 0101 
+      
+      That's it
    
 
-<img src="media/gifs/cool.gif">   
-    
+
+
+<img src="/media/gifs/cool.gif" width="300" >
+
 <hr>
 
 📑[All in one file](/Journey_so_far.md)📍
