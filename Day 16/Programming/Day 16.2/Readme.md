@@ -317,8 +317,66 @@ In unsigned char the range will be
 >And same calulation will be done in overflow condition just like above examples. Nothing will change.
 
 ### By default all datatypes are signed so that means all datatypes left most bit is reserved for positive and negative<br>
-![remember](https://user-images.githubusercontent.com/83267083/209800162-72cf9cbe-972a-4acb-a76a-6c27dec55267.gif)
 
+<img src="/media/gifs/remember.gif" width="250" height="250">
+
+
+**Date :** `28-12-2022`
+
+**Now how negative numbers are stored ?**
+
+I think you already know this by now.<br>
+The left most bit (also called most significant bit) will be used.<br>
+0 --> for positive<br>
+1 --> for negative<br>
+
+**Now lets go little in depth in this**<br>
+
+Suppose we want to store -5 . What are the steps to store this negative number.<br>
+
+- First ignore the negative sign.
+- Second convert it into binary representation
+  i.e 0000 0000 0000 0101
+- Third : Take 2's compliment of this binary number and store it
+  
+  **Process of 2's compliment** 
+  
+  First take the 1's compliment of 101<br>
+  How ?
+  Just reverse the 1's into 0's and vice-versa
+  
+        
+      i.e 1111 1111 1111 1010  
+  Now take 2's compliment
+  How ?
+  Just add the 1 in the 1's compliment value
+      
+      i.e 1111 1111 1111 1010
+                            1+
+         ______________________
+          1111 1111 1111 1011   
+         /|\
+          |
+          |
+          |_________________________________This shows that the number is negative
+  
+   **Now if we want to print this number how we will do that ?**
+   > Just take 2's compliment of the result value that's all.
+    
+      1111 1111 1111 1011
+   Take 1's compliment first
+        
+      i.e 0000 0000 0000 0100
+   Take 2's compliment by adding 1
+   
+      i.e 0000 0000 0000 0100
+                            1+
+          ____________________
+          0000 0000 0000 0101 
+   
+
+<img src="media/gifs/cool.gif">   
+    
 <hr>
 
 📑[All in one file](/Journey_so_far.md)📍
