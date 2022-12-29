@@ -379,7 +379,15 @@ Suppose we want to store -5 . What are the steps to store this negative number.<
 
 
 
-<img src="/media/gifs/cool.gif" width="300" >
+<img alt="Ron saying cool expression gif" src="/media/gifs/cool.gif" width="300" >
+
+<br>
+
+>### Note : In-built unsigned datatypes are only available in c/c++
+
+<br>
+
+>**In java there isn't usnsigned datatypes. But from Java 8 onwards you can avail the benefit of unsigned datatypes by using classes , one example is Integer class [check this oracle doc for more info](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html#:~:text=In%20Java%20SE%208%20and,Number%20Classes%20for%20more%20information.)**<br>
 
 <hr>
 
