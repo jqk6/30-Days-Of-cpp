@@ -61,7 +61,6 @@ terminates the main() function and returns a value of 0 to the operating system.
 using namespace std;
 int main(){
     cout<<"Hello world"<<endl;
-    return 0;
 }
 ```
 `::` this symbol is called space resolution operator.
