@@ -24,7 +24,7 @@ And second half of the video ? Here it goes :<br>
 
 **How data is stored ?**
 
-```              
+```c++              
                          
                     |=======> initialized value 
                     |
@@ -136,7 +136,7 @@ int have 4 bytes of storage available
 **We said int have 4 byte storage that means 32 bit so why 31 🤨?**<br>
 **The reason is : The left most bit( _called most significant bit(msb)_) is used to determine whether the number is positive or negative number.
 So the left most bit is reserved for negative and positive sign.**
-
+```c++
      _______________________________________
     |           |        |        |         |
     |  0  0 0 0 |  0000  |  0110  |  0010   |
@@ -144,7 +144,7 @@ So the left most bit is reserved for negative and positive sign.**
     |__|________|________|________|_________|
     
     (sorry for mismatched arrow but I hope you got the idea what I am talking about)
-
+```
 ### How range of a datatype is calculated ?
 > #### -2<sup>N-1</sup> to 2<sup>N-1</sup> - 1<br>
 > Where N = number of bits<br>
@@ -152,7 +152,7 @@ So the left most bit is reserved for negative and positive sign.**
 
 > Formula for finding the range of unsigned datatype is : **2<sup>N</sup> - 1**
 
-char have 1 byte of storage available
+**char** have 1 byte of storage available
 > i.e 2<sup>8</sup>-1 (for unsigned char)
 
 >-2<sup>7</sup> to 2<sup>7</sup>-1 (for signed char)<br>
@@ -202,11 +202,15 @@ I am using integer variable because it's have longer range so it will be easy to
 The value of ch is : -127
 ```
 **Now why this ?**<br>
+
 Lets do some maths <br>
+
 `char` is signed(for now lets suppose that) which means -2<sup>7</sup> to 2<sup>7</sup>-1 so the range is _-128 to 127_ <br>
 
 **Why not -128 to 128 ?**<br>
+
 I think you already know the reason.<br>
+
 But still<br>
 <img alt ="Giving let me remind you expression gif" src="/media/gifs/remind.gif"  width="350" height="200" >
 
@@ -336,46 +340,60 @@ Suppose we want to store -5 . What are the steps to store this negative number.<
 
 - First ignore the negative sign.
 - Second convert it into binary representation
-  i.e 0000 0000 0000 0101
+ ```c++ <!-- I am adding this to make the numbers colorful-->
+i.e 0000 0000 0000 0101
+```          
 - Third : Take 2's compliment of this binary number and store it
   
   **Process of 2's compliment** 
   
   First take the 1's compliment of 101<br>
-  How ?
+  How ?<br>
   Just reverse the 1's into 0's and vice-versa
-  
-        
-      i.e 1111 1111 1111 1010  
-  Now take 2's compliment
-  How ?
+```c++   
+i.e 1111 1111 1111 1010  
+```
+  Now take 2's compliment<br>
+  How ?<br>
   Just add the 1 in the 1's compliment value
-      
-      i.e 1111 1111 1111 1010
-                            1+
-         ______________________
-          1111 1111 1111 1011   
-         /|\
-          |
-          |
-          |_________________________________This shows that the number is negative
-  
+ ```c++     
+  i.e 1111 1111 1111 1010
+                        1+
+     _____________________
+      1111 1111 1111 1011   
+     /|\
+      |
+      |
+      |_________________________________This shows that the number is negative
+```  
    **Now if we want to print this number how we will do that ?**
    > Just take 2's compliment of the result value that's all.
-    
+```c++    
       1111 1111 1111 1011
+```
    Take 1's compliment first
-        
-      i.e 0000 0000 0000 0100
+```c++     
+   i.e 0000 0000 0000 0100
+```
    Take 2's compliment by adding 1
-   
+ ```c++  
       i.e 0000 0000 0000 0100
                             1+
           ____________________
           0000 0000 0000 0101 
       
       That's it
-   
+      Now you may think it will be same as positive 5 right ? Here's the catch
+      The compiler take the msb of the stored binary number
+      i.e. 1111 1111 1111 1011
+          /|\
+           |
+           |
+           |________________________________Compiler will see this which will help in determining the sign of the stored number 
+```
+        After doing 2's compilment
+        it will add this negative sign to our output number
+        i.e. - 5
 
 
 
