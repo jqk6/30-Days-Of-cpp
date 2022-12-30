@@ -23,6 +23,7 @@ Variables can be of different types. Primarily we have these variable types in C
 - char        (1 byte)
 - bool        (1 byte)
 ```
+[Data Types in C++](https://www.geeksforgeeks.org/cpp-data-types/)
 
 #### Syntax for declaring variables in C++
 >Data_type Variable_name = Value;
