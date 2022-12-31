@@ -21,6 +21,7 @@
         <ul>
             <li> <a href="#16.1">Day 16.1</a></li>
             <li> <a href="#16.2">Day 16.2</a></li>
+            <li> <a href="#16.3">Day 16.3</a></li>
         </ul>    
     </li>
     
@@ -2027,6 +2028,7 @@ First solve by yourself then see the code .
 **Q 4. WRAP to check whether the given number is prime or not.**
 >📍[Solution](/Day%2016/Programming/Day%2016.3/primeOrNot.cpp)
 
+<div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 
 <hr>
 
