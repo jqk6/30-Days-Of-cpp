@@ -35,11 +35,11 @@ The value of a is 49
 
 #### Questions on loops
 
-First dolve by yourself then see the code .
+First solve by yourself then see the code .
 
 **Q 1. WRAP to print 1 to n number , n will be given by the user .**
->[Solution](/Day%2016/Programming/Day%2016.3/printNnumbers.cpp) <br>
+>📍[Solution](/Day%2016/Programming/Day%2016.3/printNnumbers.cpp) <br>
 >WRAP(Write a program)
 
 **Q 2. WRAP to print sum of the values from 1 to n number, n will be given by the user .**
->[Solution](/Day%2016/Programming/Day%2016.3/PrintSumOfNumbers.cpp)
+>📍[Solution](/Day%2016/Programming/Day%2016.3/PrintSumOfNumbers.cpp)
