@@ -8,7 +8,7 @@
 **Before jumping to patterns**
 
 **I found something interesting** (as newbie in C++ it is interesting for me)
-When we try to take input from `cin` the space(' ') , tabs(\t) , enter(\n) ignored by cin during taking input from the terminal.<br>
+When we try to take input from `cin` the space(' ') , tabs(\t) , enter(\n) ignored by `cin` during taking input from the terminal.<br>
 But when we try to take input from `cin.get` the story is different<br>
 Let me show you how to use cin.get:
 
