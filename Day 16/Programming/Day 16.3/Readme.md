@@ -41,5 +41,12 @@ First solve by yourself then see the code .
 >📍[Solution](/Day%2016/Programming/Day%2016.3/printNnumbers.cpp) <br>
 >WRAP(Write a program)
 
-**Q 2. WRAP to print sum of the values from 1 to n number, n will be given by the user .**
+**Q 2. WRAP to calculate sum of the values from 1 to n number, n will be given by the user .**
 >📍[Solution](/Day%2016/Programming/Day%2016.3/PrintSumOfNumbers.cpp)
+
+**Q 3. WRAP to calculate sum of the even numbers from 2 to n number, n will be given by the user .**
+>📍[Solution](/Day%2016/Programming/Day%2016.3/printSumOfEvenNumbers.cpp)
+
+**Q 4. WRAP to check whether the given number is prime or not.**
+>📍[Solution](/Day%2016/Programming/Day%2016.3/primeOrNot.cpp)
+
