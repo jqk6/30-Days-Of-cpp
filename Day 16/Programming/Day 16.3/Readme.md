@@ -52,4 +52,4 @@ First solve by yourself then see the code .
 
 <hr>
 
-📍[All in one file](/Journey_so_far.md)
+📑[All in one file](/Journey_so_far.md)📍
