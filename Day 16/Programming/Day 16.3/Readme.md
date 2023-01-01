@@ -52,4 +52,96 @@ First solve by yourself then see the code .
 
 <hr>
 
+**Date :** `01-01-2023`
+
+Now lets start pattern 
+
+**But why pattern ?**<br>
+>Pattern helps to deepen our logic building.
+
+Lets start with a beginner level
+
+**1.**
+```
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+```
+>Hint : Use nested loop
+
+
+Print this patten as it is. Each star must have one space between them.
+>📍[Solution](/Day%2016/Programming/Day%2016.3/PatternQuestions/pattern1.cpp)
+
+
+
+**2.**
+```
+For input 4             For input 3
+* * * *                 * * *
+* * * *                 * * *    
+* * * *                 * * *
+* * * *
+```
+Take the above pattern as example and print the above pattern according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.3/PatternQuestions/pattern2.cpp)
+
+
+
+**3.**
+```
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+```
+Print he above pattern as it is.
+>📍[Solution](/Day%2016/Programming/Day%2016.3/PatternQuestions/pattern3.cpp)
+
+
+**4.**
+```
+For input 5     For input 4
+1               1           
+2 2             2 2
+3 3 3           3 3 3
+4 4 4 4         4 4 4 4
+5 5 5 5 5
+```
+Take the above pattern as example and print the above pattern according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.3/PatternQuestions/pattern4.cpp)
+
+**5.**
+```
+1 1 1 1 1
+2 2 2 2
+3 3 3
+4 4
+5
+```
+Print the above pattern as it is.
+>📍[Solution](/Day%2016/Programming/Day%2016.3/PatternQuestions/pattern5.cpp)
+
+**6.**
+```
+For input 5         For input 4
+1 1 1 1 1           1 1 1 1
+2 2 2 2             2 2 2
+3 3 3               3 3 
+4 4                 4
+5
+```
+Take the above pattern as example and print the above pattern according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.3/PatternQuestions/pattern6.cpp)
+<br>
+
+
+You can refer to the video for better understanding of what's happening behind the scenes of these pattern and how to solve it. If you are a beginner in coding I must recommend you to watch the video.
+>📍[Vide Link](https://youtu.be/WR31ByTzAVQ?list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f&t=2690)
+
+<hr>
+
 📑[All in one file](/Journey_so_far.md)📍
