@@ -50,3 +50,6 @@ First solve by yourself then see the code .
 **Q 4. WRAP to check whether the given number is prime or not.**
 >📍[Solution](/Day%2016/Programming/Day%2016.3/primeOrNot.cpp)
 
+<hr>
+
+📍[All in one file](/Journey_so_far.md)
