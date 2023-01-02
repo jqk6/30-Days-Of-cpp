@@ -307,16 +307,23 @@ Take the above pattern as example and print the pattern like above according to 
 
 ### Here comes the Dabang pattern 😎
 ```
-For input 5                       For input 4
+For input 5                   For input 4
 1 2 3 4 5 5 4 3 2 1           1 2 3 4 4 3 2 1
 1 2 3 4 * * 4 3 2 1           1 2 3 * * 3 2 1   
 1 2 3 * * * * 3 2 1           1 2 * * * * 2 1  
 1 2 * * * * * * 2 1           1 * * * * * * 1  
 1 * * * * * * * * 1
 ```
-**If you are able do this by your own without any issue.<br>
-Then my friend you are doing great.
-If not then don't give up, understand the code and try to implement it and execute the code one step at a time for better understanding.**
+**If you are able do this by your own without any issue.**<br>
+
+<!-- ![cheers](https://user-images.githubusercontent.com/83267083/210249568-adff5f91-ec04-4c89-b0bf-15b7a449365e.gif) -->
+<!-- ![]() -->
+
+<img alt="cheers my friend (always drink juice or water😄)" src="/media/gifs/cheers.gif" >
+
+**Congrats🥳 my friend you are doing great.**<br>
+
+**If not then don't give up, understand the code and try to implement it and execute the code one step at a time for better understanding.**
 >📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern28.cpp)
 
 <hr>                            
