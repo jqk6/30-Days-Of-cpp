@@ -3,13 +3,10 @@ using namespace std;
 
 int main(){
     int i =1;
-    int n;
     char c = 'A';
-    cout<<"Enter you value "<<endl;
-    cin>>n;
-    while(i<=n){
+    while(i<=4){
         int j =1;
-        while(j<=n){
+        while(j<=4){
             cout<<char(c+j-1)<<" ";
             j++;
         }
@@ -17,5 +14,6 @@ int main(){
         i++;
         cout<<endl;
     }
+
 return 0;
 }
