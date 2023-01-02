@@ -191,3 +191,122 @@ Take the above pattern as example and print the pattern like above according to 
 ```
 Print the above pattern as it is.
 >📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern20.cpp)
+
+<br>
+
+**14.**
+```
+For input 4           For input 5
+      *                         *
+    * *                       * *
+  * * *                     * * *
+* * * *                   * * * *
+                        * * * * *
+```
+Take the above pattern as example and print the pattern like above according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern21.cpp)
+
+<br>
+
+**15.**
+```
+For input 4              For input 5
+* * * *                  * * * * *
+* * *                    * * * *
+* *                      * * *
+*                        * *
+                         *
+```
+Take the above pattern as example and print the pattern like above according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern22.cpp)
+
+<br>
+
+**16.**
+```
+For input 4             For input 5
+* * * *                 * * * * *
+  * * *                   * * * *
+    * *                     * * *
+      *                       * *
+                                *
+```
+Take the above pattern as example and print the pattern like above according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern22.cpp)
+
+<br>
+
+**17.**
+```
+For input 4               For input 5
+1 1 1 1                   1 1 1 1 1
+  2 2 2                     2 2 2 2
+    3 3                       3 3 3
+      4                         4 4
+                                  5
+```
+Take the above pattern as example and print the pattern like above according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern23.cpp)
+
+<br>
+
+**18.**
+```
+For input 4           For input 5
+      1                         1
+    2 2                       2 2
+  3 3 3                     3 3 3
+4 4 4 4                   4 4 4 4
+                        5 5 5 5 5
+ 
+```
+Take the above pattern as example and print the pattern like above according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern24.cpp)
+
+**19.**
+```
+For input 4      For input 5
+1 2 3 4          1 2 3 4 5
+  2 3 4            2 3 4 5
+    3 4              3 4 5
+      4                4 5
+                         5
+```
+Take the above pattern as example and print the pattern like above according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern25.cpp)
+
+<br>
+
+**20.**
+```
+For input 4             For input 5
+          1                       1
+        2 3                     2 3
+      4 5 6                   4 5 6
+    7 8 9 10                7 8 9 10
+                      11 12 13 14 15
+```
+Take the above pattern as example and print the pattern like above according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern26.cpp)
+
+<br>
+
+**21.**
+```
+For input 4               For input 5
+      1                       1
+    1 2 1                   1 2 1
+  1 2 3 2 1               1 2 3 2 1
+1 2 3 4 3 2 1           1 2 3 4 3 2 1
+                      1 2 3 4 5 4 3 2 1
+```
+Take the above pattern as example and print the pattern like above according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern27.cpp)
+
+<br>
+
+
+
+<hr>                            
+
+📑[All in one file](/Journey_so_far.md)📍
