@@ -71,6 +71,8 @@ For input 4           For input 5
 Take the above pattern as example and print the pattern like above according to the user input.
 >📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern11.cpp)
 
+<br>
+
 **6.**
 ```
 For input 4               For input 5
@@ -82,3 +84,110 @@ For input 4               For input 5
 ```
 Take the above pattern as example and print the pattern like above according to the user input.
 >📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern12.cpp)
+
+<br>
+
+**7.**
+```
+A A A A
+B B B B
+C C C C
+D D D D
+```
+Print the above pattern as it is.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern13.cpp)
+
+<br>
+
+**8.**
+```
+For input 5       For input 4
+A B C D E         A B C D
+A B C D E         A B C D
+A B C D E         A B C D
+A B C D E         A B C D
+A B C D E
+```
+Take the above pattern as example and print the pattern like above according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern14.cpp)
+
+<br>
+
+**9.**
+```
+For input 3               For input 4
+A B C                     A B C D
+D E F                     E F G H
+G H I                     I J K L
+                          M N O P
+```
+Take the above pattern as example and print the pattern like above according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern15.cpp)
+
+<br>
+
+**9.**
+```
+A B C D
+B C D E
+C D E F
+D E F G
+```
+Print the above pattern as it is.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern16.cpp)
+
+<br>
+
+**10.**
+```
+For input 4               For input 5
+A B C D                   A B C D E
+B C D E                   B C D E F
+C D E F                   C D E F G
+D E F G                   D E F G H
+                          E F G H I
+
+```
+
+Take the above pattern as example and print the pattern like above according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern17.cpp)
+
+<br>
+
+**11.**
+```
+For input 4             For input 5
+A                       A
+B B                     B B
+C C C                   C C C
+D D D D                 D D D D
+                        E E E E E
+```
+Take the above pattern as example and print the pattern like above according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern18.cpp)
+
+<br>
+
+**12.**
+```
+For input 4               For input 5
+D                         E
+C D                       D E
+B C D                     C D E
+A B C D                   B C D E
+                          A B C D E
+```
+Take the above pattern as example and print the pattern like above according to the user input.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern19.cpp)
+
+<br>
+
+**13.**
+```
+      *
+    * *
+  * * *
+* * * *
+```
+Print the above pattern as it is.
+>📍[Solution](/Day%2016/Programming/Day%2016.4/PatternQuest/pattern20.cpp)
