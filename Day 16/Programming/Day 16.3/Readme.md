@@ -75,7 +75,7 @@ Lets start with a beginner level
 Print this patten as it is. Each star must have one space between them.
 >📍[Solution](/Day%2016/Programming/Day%2016.3/PatternQuestions/pattern1.cpp)
 
-
+<br>
 
 **2.**
 ```
@@ -88,7 +88,7 @@ For input 4             For input 3
 Take the above pattern as example and print the above pattern according to the user input.
 >📍[Solution](/Day%2016/Programming/Day%2016.3/PatternQuestions/pattern2.cpp)
 
-
+<br>
 
 **3.**
 ```
@@ -101,6 +101,7 @@ Take the above pattern as example and print the above pattern according to the u
 Print he above pattern as it is.
 >📍[Solution](/Day%2016/Programming/Day%2016.3/PatternQuestions/pattern3.cpp)
 
+<br>
 
 **4.**
 ```
@@ -114,6 +115,8 @@ For input 5     For input 4
 Take the above pattern as example and print the above pattern according to the user input.
 >📍[Solution](/Day%2016/Programming/Day%2016.3/PatternQuestions/pattern4.cpp)
 
+<br>
+
 **5.**
 ```
 1 1 1 1 1
@@ -124,6 +127,8 @@ Take the above pattern as example and print the above pattern according to the u
 ```
 Print the above pattern as it is.
 >📍[Solution](/Day%2016/Programming/Day%2016.3/PatternQuestions/pattern5.cpp)
+
+<br>
 
 **6.**
 ```
@@ -136,6 +141,7 @@ For input 5         For input 4
 ```
 Take the above pattern as example and print the above pattern according to the user input.
 >📍[Solution](/Day%2016/Programming/Day%2016.3/PatternQuestions/pattern6.cpp)
+
 <br>
 
 
