@@ -5,14 +5,19 @@
 
 ### Bitwise Operators
 
-**We only need to understand 4 types of bitwise operators**
-- AND `&`
-- OR  `|`
-- NOT `~`
-- XOR `^`
+<ul>
+    <li><a href ="#and">AND </a><code>&</code></li>
+    <li><a href ="#or">OR </a><code>|</code></li>
+    <li><a href ="#not">NOT </a><code>~</code></li>
+    <li><a href ="#xor">XOR </a><code>^</code></li>
+    <li><a href ="#ls">Left Shift </a><code>>></code></li>
+    <li><a href ="#rs">Right Shift </a><code><<</code></li>
+    
+</ul>
 
 All operators will work on bit level
-#### AND
+<h4 id=and>AND</h4>
+
 ```c++
 Truth table
 
@@ -46,7 +51,8 @@ Now take AND of these binary values
 
 <br>
 
-#### OR
+<h4 id=or>OR</h4>
+
 ```c++
 A | B = C
 0   0   0
@@ -99,8 +105,8 @@ i.e
 
 <br>
 
+<h4 id=not>NOT</h4>
 
-#### NOT
 ```c++
 A   C
 0   1
@@ -165,8 +171,121 @@ i.e
     
 THIS IS THE WHOLE STORY BEHIND NOT OPERATOR
 ```
-    
+
+<br>
+
+<h4 id=xor>XOR</h4>
+
+```c++
+A ^ B = C
+0   0   0
+0   1   1
+1   0   1
+1   1   0
+
+Means if both bit are same the output always will be zero
 ```
+**Example**
+```c++
+2^4 =?
+First convert the given values into binary
+i.e
+2 = 10
+4 = 100
+
+            010
+          ^ 100
+       __________
+            110   
+       __________
+       
+       110 binary is 6 in decimal       
+```
+
+<br>
+
+<h4 id=ls>Left Shift</h4>
+
+```c++
+5<<1 =?
+
+Lets understand with the help of binary representation
+             ____________________________________
+            |        |        |        |         |
+            |  0000  |  0000  |  0000  |  0101   |
+            |________|________|________|_________|
+            
+            When we say 5<<1 it means we are saying shift all bits to left by one position
+            i.e
+             ____________________________________
+            |        |        |        |         |
+            |  0000  |  0000  |  0000  |  1010   |
+            |________|________|________|_________|
+            
+            101 is shift by one position bit by bit and in right most position 0 is added.
+            
+            So now the decimal value of 1010 is 10
+            
+```
+**Another Example**
+
+```c++
+3<<2 =?
+
+Lets understand with the help of binary representation
+             ____________________________________
+            |        |        |        |         |
+            |  0000  |  0000  |  0000  |  0011   |
+            |________|________|________|_________|
+
+            When we say 3<<2 it means we are saying shift all bits to left by two position
+                Lets breakdown this
+                When we shift 3 by 1 (3<<1)
+                This will be the output
+                         ____________________________________
+                        |        |        |        |         |
+                        |  0000  |  0000  |  0000  |  0110   |
+                        |________|________|________|_________|
+                Now if we repeat this step
+                the output will be
+                         ____________________________________
+                        |        |        |        |         |
+                        |  0000  |  0000  |  0000  |  1100   |
+                        |________|________|________|_________|
+                This gives us the result of 3<<2
+                
+              And the decimal value of 1100 is 12 
+```
+
+
+<br>
+
+
+<h4 id=rs>Right Shift</h4>
+
+Just opposite of left shift operator
+
+```c++
+5>>1 =?
+
+Lets understand with the help of binary representation
+             ____________________________________
+            |        |        |        |         |
+            |  0000  |  0000  |  0000  |  0101   |
+            |________|________|________|_________|
+            
+            When we say 5>>1 it means we are saying shift each bit to right by one position
+            
+            
+             ____________________________________
+            |        |        |        |         |
+            |  0000  |  0000  |  0000  |  0010   |
+            |________|________|________|_________|
+            
+            The decimal value of 10 is 2
+```
+
+
 <hr>                            
 
 📑[All in one file](/Journey_so_far.md)📍
