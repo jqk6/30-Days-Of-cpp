@@ -285,6 +285,8 @@ Lets understand with the help of binary representation
             The decimal value of 10 is 2
 ```
 
+>All other topics of todays lecture are already covered in previous days notes so I am not writing it again :)
+
 
 <hr>                            
 
