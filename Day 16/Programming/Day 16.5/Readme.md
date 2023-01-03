@@ -142,7 +142,7 @@ Now the compiler will take 2s compliment . Yup yup you read it right.
 
 Now I think you already know 2s compliment but let me explain for you
 
-First we will invert the values of the above binary number. Yeah again inversion😂
+First we will take 1s compliment in which we going to invert the values of the above binary number. Yeah again inversion😂
 
 After invert the result is
              ____________________________________
