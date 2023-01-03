@@ -111,7 +111,7 @@ It will just invert the bit (1 ka zero , zero ka 1)
 Need your little more attention here🧐
 
 **Example :**
-```
+```c++
 ~2 = ?
 
 Before knwoing the direct answer lets deep dive how things will work
