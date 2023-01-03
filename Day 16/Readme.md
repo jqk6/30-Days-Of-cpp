@@ -34,5 +34,5 @@ What we are doing so far from Day 1 to Day 15 is learning programming right ? If
   
   Right now what we are doing is actually learning the concepts of a programming language , we aren't doing programming.You can google it for more info.<br>
   
-  And last thing I want to say yes this is temprory for some days only and then I will switch back to Code with Harry C++ playlist for now I will start Love Babbar 
+  And last thing I want to say yes this is temporary for some days only and then I will switch back to Code with Harry C++ playlist for now I will start Love Babbar 
   [this C++ playlist](https://www.youtube.com/playlist?list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f) and my target is to complete this playlist before `10-01-2023` (random date decided) .</b>
