@@ -340,6 +340,7 @@ In C++ basic control structures are of three types:<br>
 
 **2. Flow of Selection Structure** :<br>
 
+```c++
     Entry ->check conditon--> if true --> perform Action 1 -> Exit
                               ||
                               || if false
@@ -348,16 +349,17 @@ In C++ basic control structures are of three types:<br>
                       perform Action 2 
     
 Just like if-else condition.
+```
 
 **3. Flow of Loop Structure** :<br>
-    
+```c++    
     Entry -> check condition -> if true =============
              ||           /\                         ||
              ||if false   ||                         ||
              ||           ||Loop                     ||
              \/           ||                         \/ 
            Exit            =================== Perform Action
-    
+```    
 
 
 
@@ -378,15 +380,15 @@ There are 3 types of loops in C++:
 1. do-while loop
 
 **for loop syntax :**
-
+```c++
     for(intilization; condition ; updation){
     
         loop body(C++ code);
     
     }
-    
+```    
 **while loop syntax :**
-
+```c++
     initilization;
     while(condition){
     
@@ -395,9 +397,9 @@ There are 3 types of loops in C++:
         updation;
         
     }
-
+```
 **do-while loop syntax :**
-
+```c++
     initilization;
     do {
     
@@ -406,7 +408,7 @@ There are 3 types of loops in C++:
         updation;
         
     } while(condition);
-
+```
 
 📍[Codes of Day 7](/Day%2007)  <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 <br>
