@@ -8,15 +8,15 @@ There are 3 types of loops in C++:
 1. do-while loop
 
 **for loop syntax :**
-
+```c++
     for(intilization; condition ; updation){
     
         loop body(C++ code);
     
     }
-    
+```    
 **while loop syntax :**
-
+```c++
     initilization;
     while(condition){
     
@@ -25,9 +25,9 @@ There are 3 types of loops in C++:
         updation;
         
     }
-
+```
 **do-while loop syntax :**
-
+```c++
     initilization;
     do {
     
@@ -36,7 +36,7 @@ There are 3 types of loops in C++:
         updation;
         
     } while(condition);
-
+```
 <hr>
 
 
