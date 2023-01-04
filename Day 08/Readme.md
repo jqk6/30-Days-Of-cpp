@@ -125,7 +125,7 @@ int a  = 3;
 int* b = &a;
 ```
 **Diagram:**
-        
+```c++      
          ___
         | 3 |
         |___|
@@ -139,6 +139,7 @@ int* b = &a;
         | Address of a |
         |______________|
                b 
+```
 <br><br>          
 ```c++
 int a  = 3;
@@ -146,7 +147,7 @@ int* b = &a;
 int** c = &b;
 ```
 **Diagram:**
-        
+```c++        
          ___
         | 3 |
         |___|
@@ -169,22 +170,23 @@ int** c = &b;
         | Address of b |
         |______________|
                c 
-          
+```          
 <br><br>
 So when we say ` cout<< c `<br>
 The output will be: The address of 'b' pointer which is stored by 'c' pointer.<br>
 **Diagram:**
-        
+```c++        
          ______________  
         |              |
         | Address of b |
         |______________|
                c 
+```
 <br><br>
 When we say ` cout<< *c `<br>
 The output will be: The address present inside 'b' pointer.<br>
 **Diagram:**
-
+```c++
          ______________  
         |              |
         | Address of a |  
@@ -199,12 +201,12 @@ The output will be: The address present inside 'b' pointer.<br>
         | Address of b | =================|
         |______________|
                c 
-
+```
 <br><br>
 When we say ` cout<< **c `<br>
 The output will be :<br>
 **Diagram:**
-
+```c++
          ___
         | 3 |<============||
         |___|             ||
@@ -223,7 +225,7 @@ The output will be :<br>
         | Address of b | =================|
         |______________|
                c 
-
+```
 
 <hr>
 
