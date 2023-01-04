@@ -545,7 +545,7 @@ int a  = 3;
 int* b = &a;
 ```
 **Diagram:**
-        
+```c++        
          ___
         | 3 |
         |___|
@@ -559,6 +559,7 @@ int* b = &a;
         | Address of a |
         |______________|
                b 
+```
 <br><br>          
 ```c++
 int a  = 3;
@@ -566,7 +567,7 @@ int* b = &a;
 int** c = &b;
 ```
 **Diagram:**
-        
+```c++        
          ___
         | 3 |
         |___|
@@ -589,22 +590,23 @@ int** c = &b;
         | Address of b |
         |______________|
                c 
-          
+```          
 <br><br>
 So when we say ` cout<< c `<br>
 The output will be: The address of 'b' pointer which is stored by 'c' pointer.<br>
 **Diagram:**
-        
+```c++        
          ______________  
         |              |
         | Address of b |
         |______________|
                c 
+```
 <br><br>
 When we say ` cout<< *c `<br>
 The output will be: The address present inside 'b' pointer.<br>
 **Diagram:**
-
+```c++
          ______________  
         |              |
         | Address of a |  
@@ -619,12 +621,12 @@ The output will be: The address present inside 'b' pointer.<br>
         | Address of b | =================|
         |______________|
                c 
-
+```
 <br><br>
 When we say ` cout<< **c `<br>
 The output will be :<br>
 **Diagram:**
-
+```c++
          ___
         | 3 |<============||
         |___|             ||
@@ -643,7 +645,7 @@ The output will be :<br>
         | Address of b | =================|
         |______________|
                c 
-
+```
 
 
 📍[Codes of Day 8](/Day%2008)   <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
@@ -748,7 +750,7 @@ address<sub>new</sub> = address<sub>current</sub> + i * size of datatype
 
 
 📍[Codes of Day 9](/Day%2009)  <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
-<br>
+
 <hr>
 <!-- ================================================================================================================================================ -->
 
@@ -949,7 +951,7 @@ return 0;
 
 
 📍[Codes of Day 10](/Day%2010) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
-<br>
+
 <hr>
 <!-- ================================================================================================================================================ -->
 
@@ -1080,7 +1082,7 @@ Syntax acceptable by Function prototypes :<br>
 
 
 📍[Codes of Day 11](Day%2011) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
-<br>
+
 <hr>
 <!-- =============================================================================================================================================== -->
 
@@ -1213,7 +1215,7 @@ void swapPointer(int *num1, int *num2)
 
 
 📍[Codes of Day 12](/Day%2012) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
-<br>
+
 <hr>
 <!-- ================================================================================================================================================ -->
 
@@ -1267,7 +1269,7 @@ A constant argument is the one whose modification cannot take place by the funct
 
 
 📍[Codes of Day 13](/Day%2013) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
-<br>
+
 <hr>
 <!-- ================================================================================================================================================ -->
 
@@ -1411,9 +1413,8 @@ Flow of execution : top to bottom then from last line go to right side then go b
 ```
 
 📍[Codes of Day 14](/Day%2014) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
-<br>
-<hr>
 
+<hr>
 
 <!-- ================================================================================================================================================ -->
 
@@ -1463,8 +1464,9 @@ return 0;
 📍[Codes of Day 15](Day%2015/) <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 
 <!-- ========================================================================================================================================== -->
-<br>
+
 <hr>
+<br>
 
 <h1 id="16" align="center" > 📢 ATTENTION </h1>
 
