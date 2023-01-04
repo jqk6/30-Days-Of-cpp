@@ -64,7 +64,7 @@ In C++ basic control structures are of three types:<br>
     `Entry -> Perform Action 1 -> Performa Action 2 -> and so on..... -> Exit`
 
 **2. Flow of Selection Structure** :<br>
-
+```c++
     Entry ->check conditon--> if true --> perform Action 1 -> Exit
                               ||
                               || if false
@@ -73,16 +73,16 @@ In C++ basic control structures are of three types:<br>
                       perform Action 2 
     
 Just like if-else condition.
-
+```
 **3. Flow of Loop Structure** :<br>
-    
+```c++   
     Entry -> check condition -> if true =============
              ||           /\                         ||
              ||if false   ||                         ||
              ||           ||Loop                     ||
              \/           ||                         \/ 
            Exit            =================== Perform Action
-    
+```    
 
 
 <hr>
