@@ -25,13 +25,11 @@
             <li> <a href="#16.4">Day 16.4</a></li>
             <li> <a href="#16.5">Day 16.5</a></li>
             <li> <a href="#16.6">Day 16.6</a></li>
-            
         </ul>    
     </li>
     
 </ul>      
-<!--     <li><a href="#day-17">Day 17 </a> </li> --> 
-<!--     <li><a href="#day-18">Day 18</a> </li> -->
+
     
  
 
@@ -1323,7 +1321,7 @@ int main()
 ```
 Lets solve for factorial of 5
 
-```
+```c++
 calculateFactorial(5){
 
   return 5 * calculateFacotrial(5-1);
@@ -1374,7 +1372,7 @@ This is how function call will work in recursion .<br><br>
 Now lets understand this with just values and no syntax for better readability and understanding of what exactly are the function calls doing .
 
 
-```
+```c++
 
 Flow of execution : top to bottom then from last line go to right side then go bottom to top.
 
@@ -1661,7 +1659,7 @@ Lets come to back to the point.
 int a ='c';
 char ch = 98;
 ```
-```
+```c++
 The character value 'c' is mapped to 99 (you can check ASCII table) this 97 as a integer is totally fine.
 The 99 value is converted into binary then stored inside the RAM 
 (Yup RAM not ROM because our all programs load in RAM before execution).
@@ -2471,7 +2469,9 @@ For input 5                   For input 4
 
 <hr>
 
-# Day 16.5
+<!--  =================================================================================================================================== -->
+
+<h1 id ="16.5">Day 16.5</h1>
 
 📍[Video Link](https://www.youtube.com/watch?v=yjdQHb2elqI&list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f&index=5&ab_channel=CodeHelp-byBabbar)
 
