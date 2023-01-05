@@ -25,6 +25,7 @@
             <li> <a href="#16.4">Day 16.4</a></li>
             <li> <a href="#16.5">Day 16.5</a></li>
             <li> <a href="#16.6">Day 16.6</a></li>
+            <li> <a href="#16.7">Day 16.7</a></li>
         </ul>    
     </li>
     
@@ -2824,6 +2825,25 @@ Convert 9 to binary
 
 <hr>
 
+<!-- ==================================================================================================================================== -->
+
+<h1 id = 16.7> Day 16.7</h1>
+
+📍[Video Link](https://www.youtube.com/watch?v=0fwrMYPcGQ0&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA&index=7)
+
+**Date :** `05-01-2023`
+## Lecture 7 Summary
+### Topic： LeetCode Problem Solving Session
+
+ **I recommend, you better watch the video because I will only drop the code here.**
+ 
+ **The codes will be in C++ and JAVA both.**
+ 
+ 📍[Codes of day 16.7](/Day%2016/Programming/Day%2016.7/Code)
+<div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
+ 
+<hr>
+  
 ## Thank you so much for reading this so far 🥺.See you next time because
 
 
