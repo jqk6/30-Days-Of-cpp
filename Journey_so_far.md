@@ -2602,7 +2602,7 @@ Before knwoing the direct answer lets deep dive how things will work
 
 First we will convert 2 into binary 
 i.e. 1 0
-As we know integer is 4 bytes then all the bits on the left hand side of 1 0 are all 0's .Littble bit confusing😵‍💫. No worry your saviour is here🤠(Sorry if I sound rude , just trying to make learning fun)
+As we know integer is 4 bytes then all the bits on the left hand side of 1 0 are all 0s .Little bit confusing😵‍💫. No worry your saviour is here🤠(Sorry if I sound rude , just trying to make learning fun)
 
 Lets do some representation
 
@@ -2645,7 +2645,7 @@ i.e
     
     Yeah you guessed it right
     
-    ~2 = 3
+    ~2 = - 3
     
 THIS IS THE WHOLE STORY BEHIND NOT OPERATOR
 ```
