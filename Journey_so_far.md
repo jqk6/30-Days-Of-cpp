@@ -791,6 +791,8 @@ address<sub>new</sub> = address<sub>current</sub> + i * size of datatype
 
 **typedef** 
 keyword in C++ is used for aliasing existing data types, user-defined data types, and pointers to a more meaningful name. `typedef` allow you to give descriptive names to standard data types, which can also help you self-document your code.
+>NOTE: typedef is part of User-defined datatypes too.
+
 Taking the above example, the code will look like this:<br>
 ```c++
 #include <iostream>
