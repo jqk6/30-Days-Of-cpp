@@ -11,7 +11,7 @@
 ```c++
 switch(expression){
   case constantValue1 : Task you want to do for this specific case
-                         break;(This line is very important)
+                         break;   (break line is very important)
   case constantValue2 : Task you want to do for this specific case
                          break;
   .
@@ -23,10 +23,23 @@ switch(expression){
 
 }
 ```
+<br>
+
+**Example**
+https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/96016ea7ff22d4efb67835709b5b74fa5d16b3d4/Day%2016/Programming/Day%2016.8/SwitchExample.cpp#L8-L14
 
 **What datatypes are allowed in swithc expression ?**
 > `int` , `char` , `short` and yeah `byte` is allowed but there is little workaround you need.
 > > `byte` is a enum class std::byte in C++ . So yeah byte is not a primitive datatype.
+
+<br>
+
+**Workaround for byte use in switch**
+https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/96016ea7ff22d4efb67835709b5b74fa5d16b3d4/Day%2016/Programming/Day%2016.8/byteUseInSwitch.cpp#L7-L15
+
+<br>
+
+
 
 
 <hr>
