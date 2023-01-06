@@ -127,8 +127,7 @@ Comments `//` is a way of coveying message to the compiler that you don't need t
 ## Lecture - 4 Summmary
 ### Topic - Variables Scope and Data Types
 Variables can be of different types. Primarily we have these variable types in C++:
-```c++
-- byte        (1 byte)  
+```c++  
 - short       (2 byte)
 - int         (4 byte)
 - long int    (8 byte)
