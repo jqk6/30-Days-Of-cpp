@@ -13,7 +13,6 @@ Comments `//` is a way of coveying message to the compiler that you don't need t
 Variables can be of different types. Primarily we have these variable types in C++:
 
 ```c++
-- byte        (1 byte)  
 - short       (2 byte)
 - int         (4 byte)
 - long int    (8 byte)
