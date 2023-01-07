@@ -11,7 +11,7 @@
 ```c++
 switch(expression){
   case constantValue1 : Task you want to do for this specific case
-                         break;   (break line is very important)
+                         break;   (break statement is very important)
   case constantValue2 : Task you want to do for this specific case
                          break;
   .
@@ -39,6 +39,56 @@ https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/96016ea7ff22d4efb67835709b5
 
 <br>
 
+**Can you use switch inside switch ?**
+>Yes
+
+```c++
+    int num = 1;
+    char ch = 'a';
+
+    switch (ch)
+    {
+    case 1:
+        cout << "Case 1 of ch" << endl;
+        break;
+    case 'a': switch (num)
+                {
+                case 1 : cout<<"The num value is 1"<<endl;
+                    break;
+                
+                case 2 : cout<<"The num value is 2"<<endl;
+                    break;
+                default:cout<<"The default case of num"<<endl;
+                }
+                break;
+    }
+```
+
+
+<img alt="Let me show you something" src="/media/gifs/show-you-something.gif">
+
+```c++
+    int num1 = 1;
+    int num2 = 2;
+
+    if(num1 == 1 || num2 == 2){
+        cout<<"Hello World"<<endl;
+    }
+```
+<br>
+
+**How you will write the above code in switch ?**
+
+```c++
+    int num1 = 1;
+    int num2 = 2;
+    switch (num1)
+    {
+    case 1:
+         case 2 : cout<<"Hello World"<<endl;
+    }
+```
+>default is not mandatory.
 
 
 
