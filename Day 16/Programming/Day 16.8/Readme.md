@@ -63,7 +63,9 @@ https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/96016ea7ff22d4efb67835709b5
                 break;
     }
 ```
+>But I don't think we usually going to need this nested switch at all.
 
+<br>
 
 <img alt="Let me show you something" src="/media/gifs/show-you-something.gif">
 
@@ -116,6 +118,8 @@ Please reply
 
 Now lets get to the point. As you can see in the above example code of Hi hello because there wasn't any break so when the `case 1` start executing
 all the other cases also get executed.
+
+**This is the reason why we need break statement after each case.**
 
 
 <hr>
