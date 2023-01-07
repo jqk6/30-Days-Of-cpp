@@ -90,6 +90,32 @@ https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/96016ea7ff22d4efb67835709b5
 ```
 >default is not mandatory.
 
+**Need of break ?**
+
+We learn better with example, right ? Lets get into it
+
+**Code :**
+```c++
+    int num =1;
+    switch (num)
+    {
+    case 1: cout<<"Hi"<<endl;
+    case 2 : cout<<"Hello ?"<<endl;
+    case 3 : cout<<"Please reply"<<endl;
+    }
+```
+
+**Output**
+
+```
+Hi
+Hello ?
+Please reply
+```
+>*I hope this is not brining your instagram/facebook days* 😂 sorry for being too mischievous 🙃
+
+Now lets get to the point. As you can see in the above example code of Hi hello because there wasn't any break so when the `case 1` start executing
+all the other cases also get executed.
 
 
 <hr>
