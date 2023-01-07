@@ -2856,15 +2856,15 @@ Convert 9 to binary
 ## Lecture 8 Summary
 ### Topic： Switch Statement & Functions
 
-**What is Switch**
+**What is Switch ?**
 >You can easily find the definition on google. In short , switch is an alternative of if-else-if ladder.
 
 
-**Structure of switch**
+**Structure of switch ?**
 ```c++
 switch(expression){
   case constantValue1 : Task you want to do for this specific case
-                         break;   (break line is very important)
+                         break;   (break statement is very important)
   case constantValue2 : Task you want to do for this specific case
                          break;
   .
@@ -2892,8 +2892,129 @@ https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/96016ea7ff22d4efb67835709b5
 
 <br>
 
+<hr>
+
+**Date :** `07-01-2023`
+
+**Can you use switch inside switch ?**
+>Yes
+
+```c++
+    int num = 1;
+    char ch = 'a';
+
+    switch (ch)
+    {
+    case 1:
+        cout << "Case 1 of ch" << endl;
+        break;
+    case 'a': switch (num)
+                {
+                case 1 : cout<<"The num value is 1"<<endl;
+                    break;
+                
+                case 2 : cout<<"The num value is 2"<<endl;
+                    break;
+                default:cout<<"The default case of num"<<endl;
+                }
+                break;
+    }
+```
+>But I don't think we usually going to need this nested switch at all.
+
+<br>
+
+<img alt="Let me show you something" src="/media/gifs/show-you-something.gif">
+
+```c++
+    int num1 = 1;
+    int num2 = 2;
+
+    if(num1 == 1 || num2 == 2){
+        cout<<"Hello World"<<endl;
+    }
+```
+<br>
+
+**How you will write the above code in switch ?**
+
+```c++
+    int num1 = 1;
+    int num2 = 2;
+    switch (num1)
+    {
+    case 1:
+         case 2 : cout<<"Hello World"<<endl;
+    }
+```
+>default is not mandatory.
+
+**Need of break ?**
+
+We learn better with example, right ? Lets get into it
+
+**Code :**
+```c++
+    int num =1;
+    switch (num)
+    {
+    case 1: cout<<"Hi"<<endl;
+    case 2 : cout<<"Hello ?"<<endl;
+    case 3 : cout<<"Please reply"<<endl;
+    }
+```
+
+**Output**
+
+```
+Hi
+Hello ?
+Please reply
+```
+>*I hope this is not brining your instagram/facebook days* 😂 sorry for being too mischievous 🙃
+
+Now lets get to the point. As you can see in the above example code of Hi hello because there wasn't any break so when the `case 1` start executing
+all the other cases also get executed.
+
+**This is the reason why we need break statement after each case.**
+
+<br>
+
+**You can use constant value in your expression.**
+
+**If your question is : "What do you exactly mean by that🤨?"**
+
+See the below example.
+https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/ef2aca182e9f56b29960bc6b4e5c6d22bd227e2d/Day%2016/Programming/Day%2016.8/switchExpression.cpp#L6-L12
+
+>If your given expression gives a constant value after calculation then it's valid.
+
+<br>
+
+<img alt="Homework time" src="/media/gifs/hw.gif"  height = "300">
+
+<b>
+Question :
+  
+```
+You have Rs.1330 now you need to calculate how many notes you have
+Possible notes : Rs.100 , Rs.50, Rs.20, Rs.10
+Given amount , you need to calculate how many notes of 100s,50s,20s & 10s are present 
+Solve this question using switch.
+Constraint : The amount need to be multiple of 10
+```
+>Please solve from your side first.
+## 💭 There is no glory in practice but there is no glory without practice
+  
+>📍[Solution of the above question](/Day%2016/Programming/Day%2016.8/tellTheNumberOfNotes.cpp)
+  
+</b>
+
+
 
 <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
+
+<!-- ======================================================================================================================================= -->
 
 <hr>
   
