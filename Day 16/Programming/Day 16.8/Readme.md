@@ -3,7 +3,7 @@
 ### Topic： Switch Statement & Functions
 📍[Video Link](https://www.youtube.com/watch?v=8nNqk2NPbRA&list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f&index=8)
 
-**What is Switch**
+**What is Switch ?**
 >You can easily find the definition on google. In short , switch is an alternative of if-else-if ladder.
 
 
@@ -151,7 +151,7 @@ Solve this question using switch.
 Constraint : The amount need to be multiple of 10
 ```
 >Please solve from your side first.
-## 💭 There is no glory in practice but there is no glory without practice
+## 💭 There is no glory in practice but there is no glory without practice💯
   
 >📍[Solution of the above question](/Day%2016/Programming/Day%2016.8/tellTheNumberOfNotes.cpp)
   
