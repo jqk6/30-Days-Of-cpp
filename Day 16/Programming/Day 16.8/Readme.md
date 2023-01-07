@@ -7,7 +7,7 @@
 >You can easily find the definition on google. In short , switch is an alternative of if-else-if ladder.
 
 
-**Structure of switch**
+**Structure of switch ?**
 ```c++
 switch(expression){
   case constantValue1 : Task you want to do for this specific case
@@ -124,6 +124,38 @@ Now lets get to the point. As you can see in the above example code of Hi hello 
 all the other cases also get executed.
 
 **This is the reason why we need break statement after each case.**
+
+<br>
+
+**You can use constant value in your expression.**
+
+**If your question is : "What do you exactly mean by that🤨?"**
+
+See the below example.
+https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/ef2aca182e9f56b29960bc6b4e5c6d22bd227e2d/Day%2016/Programming/Day%2016.8/switchExpression.cpp#L6-L12
+
+>If your given expression gives a constant value after calculation then it's valid.
+
+<br>
+
+<img alt="Homework time" src="/media/gifs/hw.gif"  height = "300">
+
+<b>
+Question :
+  
+```
+You have Rs.1330 now you need to calculate how many notes you have
+Possible notes : Rs.100 , Rs.50, Rs.20, Rs.10
+Given amount , you need to calculate how many notes of 100s,50s,20s & 10s are present 
+Solve this question using switch.
+Constraint : The amount need to be multiple of 10
+```
+>Please solve from your side first.
+## 💭 There is no glory in practice but there is no glory without practice
+  
+>📍[Solution of the above question](/Day%2016/Programming/Day%2016.8/tellTheNumberOfNotes.cpp)
+  
+</b>
 
 
 <hr>
