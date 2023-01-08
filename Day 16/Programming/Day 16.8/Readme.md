@@ -157,6 +157,11 @@ Constraint : The amount need to be multiple of 10
   
 </b>
 
+<hr>
+
+**Date :** `08-01-2023`
+
+I watched the Function part of the video and I don't find anyting new yet so yeah you can refer [📍Day 11 notes](/Journey_so_far.md#day-11) directly.
 
 <hr>
   
