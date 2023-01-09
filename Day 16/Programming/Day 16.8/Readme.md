@@ -168,15 +168,20 @@ I watched the Function part of the video and I don't find anyting new yet so yea
 **Date :** `09-01-2023`
 https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/d28250cacee2b91de3cda6c5e3d929ddc1f55669/Day%2016/Readme.md?plain=1#L38
 
+### We did it🎉
 <img alt="we won we did it" src= "/media/gifs/wewon.gif">
 
-And finally we completed this part of journey without breaking consistency.
+<b>We completed the Love babbar [basic C++ playlist](https://youtube.com/playlist?list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f). We completed this part of journey without breaking consistency😁.</b>
 <div align ="center">
+  <b>Power of being 🦾DISCIPLINED</b> <br>
+  <b>And I am very happy that I am able to do this before deadline</b>
+  <br>
+  <img alt = "relief" src = "/media/gifs/relief.gif" height ="300">
   
-  <img alt = "relief" src = "/media/gifs/relief.gif">
-  
-  <b>I am very happy that I am able to do this before deadline</b>
+ 
 </div>
+
+
 <hr>
 
   
