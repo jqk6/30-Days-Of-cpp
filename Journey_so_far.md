@@ -3017,6 +3017,25 @@ Constraint : The amount need to be multiple of 10
 
 I watched the Function part of the video and I don't find anyting new yet so yeah you can refer [📍Day 11 notes](#day-11) directly.
 
+<hr>
+
+**Date :** `09-01-2023`
+https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/b6054c7c8c42b1ca20653de301917a2ea0532e45/Journey_so_far.md?plain=1#L1513
+
+### We did it🎉
+<img alt="we won we did it" src= "/media/gifs/wewon.gif">
+
+<b>We completed the Love babbar [basic C++ playlist](https://youtube.com/playlist?list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f). We completed this part of journey without breaking consistency😁.</b>
+<div align ="center">
+  <b>Power of being 🦾DISCIPLINED</b> <br>
+  <b>I am very happy that I am able to do this before deadline</b>
+  <br>
+  <img alt = "relief" src = "/media/gifs/relief.gif" height ="300">
+  
+  <b>Power of being 🦾DISCIPLINE</b>
+</div>
+
+
 <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 
 <!-- ======================================================================================================================================= -->
