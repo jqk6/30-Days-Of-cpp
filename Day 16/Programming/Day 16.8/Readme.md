@@ -164,5 +164,20 @@ Constraint : The amount need to be multiple of 10
 I watched the Function part of the video and I don't find anyting new yet so yeah you can refer [📍Day 11 notes](/Journey_so_far.md#day-11) directly.
 
 <hr>
+
+**Date :** `09-01-2023`
+https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/d28250cacee2b91de3cda6c5e3d929ddc1f55669/Day%2016/Readme.md?plain=1#L38
+
+<img alt="we won we did it" src= "/media/gifs/wewon.gif">
+
+And finally we completed this part of journey without breaking consistency.
+<div align ="center">
+  
+  <img alt = "relief" src = "/media/gifs/relief.gif">
+  
+  <b>I am very happy that I am able to do this before deadline</b>
+</div>
+<hr>
+
   
   📑[All in one file](/Journey_so_far.md)📍
