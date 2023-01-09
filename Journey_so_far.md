@@ -3010,7 +3010,11 @@ Constraint : The amount need to be multiple of 10
   
 </b>
 
+<hr>
 
+**Date :** `08-01-2023`
+
+I watched the Function part of the video and I don't find anyting new yet so yeah you can refer [📍Day 11 notes](#day-11) directly.
 
 <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 
