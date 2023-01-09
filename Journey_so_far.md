@@ -2,31 +2,31 @@
 
 # Index
 <ul>
-    <li><a href="#day-1">Day 1</a></li>
-    <li><a href="#day-2">Day 2 </a> </li>
-    <li><a href="#day-3">Day 3 </a> </li>
-    <li><a href="#day-4">Day 4 </a> </li>
-    <li><a href="#day-5">Day 5 </a> </li>
-    <li><a href="#day-6">Day 6 </a> </li>
-    <li><a href="#day-7">Day 7 </a> </li>
-    <li><a href="#day-8">Day 8 </a> </li>
-    <li><a href="#day-9">Day 9 </a> </li>
-    <li><a href="#day-10">Day 10 </a> </li>
-    <li><a href="#day-11">Day 11 </a> </li>
-    <li><a href="#day-12">Day 12 </a> </li>
-    <li><a href="#day-13">Day 13 </a> </li>
-    <li><a href="#day-14">Day 14 </a> </li>
-    <li><a href="#day-15">Day 15 </a> </li>
-    <li><a href="#16"</a>Day 16
+    <li><a href="#day-1">Day 1 - Introduction</a></li>
+    <li><a href="#day-2">Day 2 - Variables,Scope of Variable and Datatypes</a> </li>
+    <li><a href="#day-3">Day 3 - Basic I/O in C++</a> </li>
+    <li><a href="#day-4">Day 4 - C++ header files & operators</a> </li>
+    <li><a href="#day-5">Day 5 - Reference Variables & Typecasting</a> </li>
+    <li><a href="#day-6">Day 6 - Constants, Manipulators </a> </li>
+    <li><a href="#day-7">Day 7 - Arrays & Pointers Arithmetic in C++</a> </li>
+    <li><a href="#day-8">Day 8 - Pointers, Break & Continue Statements</a> </li>
+    <li><a href="#day-9">Day 9 - Arrays & Pointers Arithmetic in C++</a> </li>
+    <li><a href="#day-10">Day 10 - Structures, Unions & Enums</a> </li>
+    <li><a href="#day-11">Day 11 - Functions & Function Prototypes</a> </li>
+    <li><a href="#day-12">Day 12 - Call by Value & Call by Reference in C++</a> </li>
+    <li><a href="#day-13">Day 13 - Inline Functions, Default Arguments & Constant Arguments</a> </li>
+    <li><a href="#day-14">Day 14 - Recursions & Recursive Functions</a> </li>
+    <li><a href="#day-15">Day 15 - Function Overloading & OOPs</a> </li>
+    <li><a href="#16"</a>Day 16 Announcement
         <ul>
-            <li> <a href="#16.1">Day 16.1</a></li>
-            <li> <a href="#16.2">Day 16.2</a></li>
-            <li> <a href="#16.3">Day 16.3</a></li>
-            <li> <a href="#16.4">Day 16.4</a></li>
-            <li> <a href="#16.5">Day 16.5</a></li>
-            <li> <a href="#16.6">Day 16.6</a></li>
-            <li> <a href="#16.7">Day 16.7</a></li>
-            <li> <a href="#16.8">Day 16.8</a></li>
+            <li> <a href="#16.1">Day 16.1 - Intro to Programming & Flowcharts</a></li>
+            <li> <a href="#16.2">Day 16.2 - Write Your First Program in C++</a></li>
+            <li> <a href="#16.3">Day 16.3 - If-Else, While loop & Lots of Patterns (Part-1)</a></li>
+            <li> <a href="#16.4">Day 16.4 - Solving Pattern Questions (Part-2)</a></li>
+            <li> <a href="#16.5">Day 16.5 - Bitwise Operators </a></li>
+            <li> <a href="#16.6">Day 16.6 - Binary & Decimal Number System</a></li>
+            <li> <a href="#16.7">Day 16.7 - LeetCode Problem Solving Session</a></li>
+            <li> <a href="#16.8">Day 16.8 - Switch Statement & Functions</a></li>
         </ul>    
     </li>
     
@@ -1509,7 +1509,8 @@ What we are doing so far from Day 1 to Day 15 is learning programming right ? If
   Right now what we are doing is actually learning the concepts of a programming language , we aren't doing programming.You can google it for more info.<br>
   
   And last thing I want to say yes this is temporary for some days only and then I will switch back to Code with Harry C++ playlist for now I will start Love Babbar 
-  [this C++ playlist](https://www.youtube.com/playlist?list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f) and my target is to complete this playlist before `10-01-2023` (random date decided) .
+  [this C++ playlist](https://www.youtube.com/playlist?list=PLDzeHZWIZsToJ9zSl4-5BfOBzAR0fm--f) and 
+ my target is to complete this playlist before `10-01-2023` (random date decided) .
 
 
     
