@@ -88,7 +88,7 @@ The value of ch is : b
 
 **Just kidding buddy 😄** (I am just trying to make learning fun sorry if I annoyed you 😅)
 
-Lets come to back to the point.
+Lets come back to the point.
 
 **So the reason is : Because internally the compiler did typecasting**
 ```c++
