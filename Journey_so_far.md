@@ -2,15 +2,15 @@
 
 # Index
 <ul>
-    <li><a href="#day-1">Day 1 - Introduction</a></li>
-    <li><a href="#day-2">Day 2 - Variables,Scope of Variable and Datatypes</a> </li>
-    <li><a href="#day-3">Day 3 - Basic I/O in C++</a> </li>
-    <li><a href="#day-4">Day 4 - C++ header files & operators</a> </li>
-    <li><a href="#day-5">Day 5 - Reference Variables & Typecasting</a> </li>
-    <li><a href="#day-6">Day 6 - Constants, Manipulators </a> </li>
-    <li><a href="#day-7">Day 7 - Arrays & Pointers Arithmetic in C++</a> </li>
-    <li><a href="#day-8">Day 8 - Pointers, Break & Continue Statements</a> </li>
-    <li><a href="#day-9">Day 9 - Arrays & Pointers Arithmetic in C++</a> </li>
+    <li><a href="#day-1">Day 01 - Introduction</a></li>
+    <li><a href="#day-2">Day 02 - Variables,Scope of Variable and Datatypes</a> </li>
+    <li><a href="#day-3">Day 03 - Basic I/O in C++</a> </li>
+    <li><a href="#day-4">Day 04 - C++ header files & operators</a> </li>
+    <li><a href="#day-5">Day 05 - Reference Variables & Typecasting</a> </li>
+    <li><a href="#day-6">Day 06 - Constants, Manipulators </a> </li>
+    <li><a href="#day-7">Day 07 - Arrays & Pointers Arithmetic in C++</a> </li>
+    <li><a href="#day-8">Day 08 - Pointers, Break & Continue Statements</a> </li>
+    <li><a href="#day-9">Day 09 - Arrays & Pointers Arithmetic in C++</a> </li>
     <li><a href="#day-10">Day 10 - Structures, Unions & Enums</a> </li>
     <li><a href="#day-11">Day 11 - Functions & Function Prototypes</a> </li>
     <li><a href="#day-12">Day 12 - Call by Value & Call by Reference in C++</a> </li>
