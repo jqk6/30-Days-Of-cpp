@@ -2972,7 +2972,7 @@ Hi
 Hello ?
 Please reply
 ```
->*I hope this is not brining your instagram/facebook days* 😂 sorry for being too mischievous 🙃
+>*I hope this is not hitting your instagram/facebook days* 😂 sorry for being too mischievous 🙃
 
 Now lets get to the point. As you can see in the above example code of Hi hello because there wasn't any break so when the `case 1` start executing
 all the other cases also get executed.
