@@ -2882,7 +2882,7 @@ switch(expression){
 **Example**
 https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/96016ea7ff22d4efb67835709b5b74fa5d16b3d4/Day%2016/Programming/Day%2016.8/SwitchExample.cpp#L8-L14
 
-**What datatypes are allowed in swithc expression ?**
+**What datatypes are allowed in switch expression ?**
 > `int` , `char` , `short` and yeah `byte` is allowed but there is little workaround you need.
 > > `byte` is a enum class std::byte in C++ . So yeah byte is not a primitive datatype.
 
