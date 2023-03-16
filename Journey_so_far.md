@@ -3039,7 +3039,7 @@ https://github.com/ItsAnkitPatel/30-Days-Of-cpp/blob/b6054c7c8c42b1ca20653de3019
 <div align="right"><b><a href="#index">↥ Back To Top</a></b></div>
 
 <!-- ======================================================================================================================================= -->
-<hr>
+<!-- <hr>
 
 <h1 align="center">📢 Announcement</h1>
 
@@ -3086,9 +3086,9 @@ One of the best free resource with many reviews I find is Love Babbar(yeah once 
   
   From day 17 we will start code with harry lectures again and Day 1 will also be started in <a href="https://github.com/ItsAnkitPatel/30-Days-Of-DSA">DSA repo</a>
   </b>
-  </div>
+  </div>-->
 
-<hr>
+<hr> 
   
 ## Thank you so much for reading this so far 🥺.See you next time because
 
